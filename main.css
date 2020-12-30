@@ -1,0 +1,441 @@
+@font-face {
+  font-family: 'poppinsblack';
+  src: url('../fonts/poppins-black-webfont.eot');
+  src: url('../fonts/poppins-black-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/poppins-black-webfont.woff2') format('woff2'),
+    url('../fonts/poppins-black-webfont.woff') format('woff'),
+    url('../fonts/poppins-black-webfont.svg#poppinsblack') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'poppinsbold';
+  src: url('../fonts/poppins-bold-webfont.eot');
+  src: url('../fonts/poppins-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
+    url('../fonts/poppins-bold-webfont.woff') format('woff'),
+    url('../fonts/poppins-bold-webfont.svg#poppinsbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppinslight';
+  src: url('../fonts/poppins-light-webfont.eot');
+  src: url('../fonts/poppins-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/poppins-light-webfont.woff2') format('woff2'),
+    url('../fonts/poppins-light-webfont.woff') format('woff'),
+    url('../fonts/poppins-light-webfont.svg#poppinslight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppinsmedium';
+  src: url('../fonts/poppins-medium-webfont.eot');
+  src: url('../fonts/poppins-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+    url('../fonts/poppins-medium-webfont.woff') format('woff'),
+    url('../fonts/poppins-medium-webfont.svg#poppinsmedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppinsregular';
+  src: url('../fonts/poppins-regular-webfont.eot');
+  src: url('../fonts/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+    url('../fonts/poppins-regular-webfont.woff') format('woff'),
+    url('../fonts/poppins-regular-webfont.svg#poppinsregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppinssemibold';
+  src: url('../fonts/poppins-semibold-webfont.eot');
+  src: url('../fonts/poppins-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/poppins-semibold-webfont.woff2') format('woff2'),
+    url('../fonts/poppins-semibold-webfont.woff') format('woff'),
+    url('../fonts/poppins-semibold-webfont.svg#poppinssemibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.poppinsbold {
+  font-family: 'poppinsbold';
+}
+
+.bg-global {
+  background-color: #232323;
+  color: white;
+  font-family: poppinsregular;
+}
+
+.bg-laboral {
+  font-family: poppinsregular;
+}
+
+.header-tecnologia {
+  background-image: url('/img/4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 449px;
+  position: relative;
+}
+
+.header-mundo-laboral {
+  background-image: url('/img/6.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+  min-height: 566px;
+  position: relative;
+}
+
+.content-title {
+  position: absolute;
+  bottom: 8%;
+}
+
+.position-title {
+  position: absolute;
+  bottom: 12%;
+}
+
+.content-title h1 {
+  font-size: 108%;
+}
+
+.size-10 {
+  font-size: 10px;
+}
+
+.size-14 {
+  font-size: 14px;
+}
+
+.text-form {
+  color: #fdba30;
+  font-family: poppinsbold;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-purple {
+  color: #8330f5;
+}
+
+.bg-yellow {
+  background-color: #fdba30 !important;
+}
+
+.border-purple {
+  border: 1px solid #8330f5;
+}
+
+.border-form {
+  border: 1px solid #a6a6a6;
+}
+
+.bg-black {
+  background-color: black;;
+}
+
+.bg-purple {
+  background-color: #8330f5;
+}
+
+.line-title {
+  background-color: #8330f5;
+  margin-top: 13px;
+  height: 1px;
+  width: 38px;
+}
+
+.style-btn-asesor {
+  background-color: black;
+  border: 1px solid white;
+  padding: 10px 20px;
+  width: 100%; 
+}
+
+.style-servicios {
+  padding: 17px 20px;
+  min-height: 202px;
+}
+
+.relativo {
+  position: relative;
+}
+
+.style-rect-servicios:before {
+  content: '';
+  width: 95.6%;
+  height: 15%;
+  position: absolute;
+  bottom: -18px;
+  z-index: -9;
+  background-color: #8330f5;
+  display: block;
+  opacity: 1;
+  transition: .25s opacity;
+}
+
+.justify-content-around.bg-purple, .justify-content-around.bg-black, .justify-content-around.bg-white {
+  min-height: 196px;
+}
+
+.justify-content-around.bg-purple .text-center, .justify-content-around.bg-black .text-center {
+  width: 40%;
+  border-right: 1px solid white;
+}
+
+.justify-content-around.bg-white .text-center {
+  width: 40%;
+  border-right: 1px solid #8330f5;
+}
+
+.justify-content-around.bg-purple .p-4, .justify-content-around.bg-black .p-4, .justify-content-around.bg-white .p-4 {
+  width: 80%;
+}
+
+.justify-content-around.bg-purple span, .justify-content-around.bg-black span, .justify-content-around.bg-white span {
+  font-family: 'poppinsbold';
+  font-size: 60px;
+} 
+
+.btn-conversa {
+  background-color: #fdba30;
+  color: black !important;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 13px 21px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: black;
+  height: 250px;
+}
+
+.section-experiencia .block-video-modal .link-video-modal::before {
+  content: none;
+}
+
+.section-experiencia .block-video-modal .link-video-modal::after {
+  left: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+  top: 50%;
+}
+
+.link-image-modal.link-video-modal::after {
+  background-size: 54px;
+  width: 54px;
+  height: 54px;
+  left: 28px;
+  margin-left: 0;
+  top: unset;
+  margin-top: unset;
+  bottom: 28px;
+}
+
+
+.link-video-modal {
+  display: block;
+  position: relative;
+}
+
+.link-video-modal figure {
+  overflow: hidden;
+}
+
+.link-video-modal figure img {
+  transition: .41s transform;
+}
+
+.link-image-modal.link-video-modal::after {
+  background-size: 54px;
+  width: 54px;
+  height: 54px;
+  left: 28px;
+  margin-left: 0;
+  top: unset;
+  margin-top: unset;
+  bottom: 28px;
+}
+
+.link-video-modal::after {
+  content: '';
+  background: white;
+  border-radius: 50%;
+  background-size: 54px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: absolute;
+  z-index: 5;
+  left: 20px;
+  bottom: 24px;
+}
+
+.tri::before {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 9;
+  left: 34px;
+  bottom: 34px;
+  width: 0;
+  height: 0;
+  border-left: 30px solid #8330f5;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+
+.modal-dialog.upn {
+  max-width: 800px;
+  margin: 120px auto;
+}
+
+.modal-body.upn {
+  position: relative;
+  padding: 0px;
+}
+
+.close.upn {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  z-index: 999;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #fff;
+  opacity: 1;
+}
+
+.text-lab {
+  position: absolute;
+  left: 34px;
+  bottom: 0px;
+}
+
+#laboratorios .slick-dots li button:before {
+  font-size: 13px;
+  top: 8px;
+  color: white;
+  opacity: 0.5;
+}
+
+#laboratorios .slick-dots li.slick-active button:before {
+  opacity: 1.75;
+  color: #8330f5;
+}
+
+.btn-register {
+  background-color: #fdba30;
+  color: black !important;
+  text-decoration: none !important;
+  font-family: poppinssemibold;
+  padding: 14px 89px;
+}
+
+.camp-form {
+  border-radius: 0;
+  height: calc(1.5em + 0.75rem + 10px);
+  border: 1px solid #a6a6a6;
+}
+
+.bg-form-tec {
+  background-color: white;
+  width: 100%; 
+  border-radius: 9px; 
+  margin-top: 30px;
+  padding: 30px 28px;
+}
+
+.bg-form-tec .form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #a6a6a6;
+  outline: 0;
+  box-shadow: 0 0 black;
+}
+
+.line-form {
+  line-height: 1;
+}
+
+.logo-upn {
+  width: 68px;
+  position: absolute;
+  left: 18px;
+}
+
+@media (min-width: 768px) {
+
+  .header-tecnologia {
+    background-color: #232323;
+    background-image: none;
+    min-height: 658px;
+    position: relative;
+  }
+
+  .header-mundo-laboral {
+    background-color: white;
+    background-image: none;
+    min-height: 658px;
+    position: relative;
+  }
+
+  .content-title, .position-title {
+    bottom: 26%;
+  }
+
+  .content-title h1 {
+    font-size: 2.5rem;
+  }
+
+  .style-btn-asesor {
+    width: 300px;
+  }
+
+  .style-rect-servicios:before {
+    width: 99%;
+  }
+
+  .section-experiencia .block-video-modal .link-video-modal::before {
+    content: 'Ver video';
+    position: absolute;
+    bottom: 45px;
+    color: #fff;
+    z-index: 9;
+    left: 100px;
+  }
+
+  .section-experiencia .block-video-modal .link-video-modal::after {
+    left: 16px;
+    margin-left: 0;
+    top: unset;
+    margin-top: unset;
+    bottom: 18px;
+  }
+
+  .btn-register {
+    padding: 14px 118px;
+  }
+
+  .logo-upn {
+    left: 30px;
+  }
+
+}
