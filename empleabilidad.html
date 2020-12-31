@@ -30,7 +30,8 @@
                             <h1>TE PREPARAMOS PARA EL <br class="d-block d-lg-none">MUNDO LABORAL</h1>
                         </div>
                         <div class="cta cta-yellow pt-md-4 mb-5 text-uppercase">
-                            <a href="" target="_blank" class="d-flex d-md-none justify-content-between border-r">
+                            <a href="" target="_blank" class="d-flex d-md-none justify-content-between border-r"
+                                type="button" data-toggle="modal" data-target="#exampleModal">
                                 Postula AHORA
                                 <img src="./img/arrow-right-black.svg">
                             </a>
@@ -448,21 +449,89 @@
         </div>
     </footer>
 
+
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog upn" role="document">
             <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <!--<span aria-hidden="true">&times;</span>-->
+                <div class="modal-body upn">
+                    <button type="button" class="close upn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
                     </button>
-                    <!-- 16:9 aspect ratio -->
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
                             allow="autoplay"></iframe>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Formulario Mobile-->
+    <div class="modal fade p-0" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog m-0" role="document">
+            <div class="modal-content rounded-0 border-0">
+                <img class="logo-upn" src="./img/logo-vertical.svg" alt="">
+                <div class="float-right">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <img class="pt-4 pr-4" src="./img/close.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="bg-form-tec px-0">
+                        <p class="text-purple poppinsbold pl-lg-4 pb-2">Déjanos tus datos y conoce por qué UPN es tu
+                            mejor opción
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <input type="radio" name="grado">
+                            <span class="text-black line-form pl-2 size-14 mr-lg-5">PREGRADO</span>
+                            <input type="radio" name="grado" class="ml-3 ml-lg-5">
+                            <span class="text-black line-form pl-2 size-14">CARRERA PARA GENTE QUE
+                                TRABAJA</span>
+                        </div>
+                        <div class="form-group d-flex mt-4">
+                            <input type="name" class="form-control text-center camp-form" placeholder="NOMBRES">
+                            <input type="name" class="form-control text-center camp-form ml-2 ml-lg-4"
+                                placeholder="APELLIDOS">
+                        </div>
+                        <div class="form-group d-flex">
+                            <input type="text" class="form-control text-center camp-form" placeholder="DNI">
+                            <input type="iphone" class="form-control text-center camp-form ml-2 ml-lg-4"
+                                placeholder="CELULAR">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control camp-form" placeholder="CORREO ELECTRONICO">
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control camp-form">
+                                <option>SELECCIONA UNA CARRERA</option>
+                                <option>Ingeniería</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control camp-form">
+                                <option>ESCOGE UN CAMPUS</option>
+                                <option>Norte</option>
+                            </select>
+                        </div>
+                        <div class="form-check pt-3">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label text-black size-14" for="exampleCheck1">Acepto el uso de mis
+                                datos
+                                personales de acuerdo a las
+                                <a href="" class="text-form">politicas de privacidad</a>
+                            </label>
+                        </div>
+                        <div class="text-center pt-5 mt-3 pb-5 mb-5">
+                            <a href="">
+                                <div class="btn-register">ENVIAR</div>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+
             </div>
         </div>
     </div>

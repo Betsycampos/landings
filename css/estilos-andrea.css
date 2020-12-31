@@ -304,7 +304,7 @@ figure>img {
 }
 
 /** video modal **/
-.modal-dialog {
+/*.modal-dialog {
     max-width: 800px;
     margin: 30px auto;
 }
@@ -323,9 +323,9 @@ figure>img {
     font-weight: normal;
     color: #fff;
     opacity: 1;
-}
+}*/
 
-.modal-dialog .modal-content button.close {
+/*.modal-dialog .modal-content button.close {
     right: 0px;
     top: -24px;
     background-color: #fff;
@@ -336,7 +336,7 @@ figure>img {
     height: 10px;
     background-position: center;
     background-repeat: no-repeat;
-}
+}*/
 
 /** slider viajes **/
 
