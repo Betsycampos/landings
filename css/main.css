@@ -126,7 +126,7 @@
 }
 
 .text-black {
-  color: black;
+  color: #000000;
 }
 
 .text-purple {
@@ -146,7 +146,7 @@
 }
 
 .bg-black {
-  background-color: black;;
+  background-color: #000000;
 }
 
 .bg-purple {
