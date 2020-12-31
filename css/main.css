@@ -80,7 +80,7 @@
 }
 
 .header-tecnologia {
-  background-image: url('/img/4.png');
+  background-image: url('../img/4.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -89,7 +89,7 @@
 }
 
 .header-mundo-laboral {
-  background-image: url('/img/6.png');
+  background-image: url('../img/bg-1.png');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -381,6 +381,20 @@
   left: 18px;
 }
 
+.stripe:before {
+  background: #ffffff;
+  -moz-transform: skewY(-5deg);
+  -ms-transform: skewY(-5deg);
+  -webkit-transform: skewY(-5deg);
+  transform: skewY(-10deg);
+  height: 60%;
+  width: 100%;
+  content: "";
+  top: 0px;
+  left: 0;
+  position: absolute;
+}
+
 @media (min-width: 768px) {
 
   .header-tecnologia {
@@ -437,5 +451,11 @@
   .logo-upn {
     left: 30px;
   }
+
+  .stripe:before {
+    height: 0;
+    width: 0;
+  }
+  
 
 }

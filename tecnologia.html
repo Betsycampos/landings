@@ -12,15 +12,13 @@
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.min.css">
   <link rel="shortcut icon" href="http://upn.edu.pe/sites/default/files/upn.ico" type="image/vnd.microsoft.icon" />
-  <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    type="text/css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body class="bg-global">
 
   <header class="header-tecnologia">
-    <img class="logo-upn" src="/img/upn.PNG" alt="">
+    <img class="logo-upn" src="./img/logo-vertical.svg" alt="">
     <div class="container">
       <div class="row">
         <div class="col-md-6 content-title">
@@ -31,17 +29,18 @@
           <div class="d-none d-md-block">
             <div class="d-flex justify-content-between style-btn-asesor mt-5">
               <p class="m-0">HABLAR CON UN ASESOR </p>
-              <i class="fa fa-envelope-o pt-1" aria-hidden="true"></i>
+              <img src="./img/down-arrow.svg" alt="">
             </div>
           </div>
           <div class="d-block d-md-none ">
-            <div class="d-flex justify-content-between style-btn-asesor mt-5">
+            <div class="d-flex justify-content-between style-btn-asesor mt-5" type="button" data-toggle="modal"
+              data-target="#exampleModal">
               <p class="m-0">POSTULA AHORA</p>
-              <img src="/img/down-arrow.svg" alt="">
+              <img src="./img/down-arrow.svg" alt="">
             </div>
             <div class="d-flex justify-content-between style-btn-asesor mt-2">
               <p class="m-0">HABLAR CON UN ASESOR </p>
-              <img src="/img/down-arrow.svg" alt="">
+              <img src="./img/down-arrow.svg" alt="">
             </div>
           </div>
         </div>
@@ -83,7 +82,7 @@
             <div class="form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label text-black size-14" for="exampleCheck1">Acepto el uso de mis datos
-                personales <br class="d-none d-lg-block"> de acuerdo a las 
+                personales <br class="d-none d-lg-block"> de acuerdo a las
                 <a href="" class="text-form">politicas de privacidad</a>
               </label>
             </div>
@@ -137,28 +136,28 @@
             <a href="#" data-toggle="modal" class="link-video-modal tri video-btn video-zoom" data-toggle="modal"
               data-src="https://www.youtube.com/embed/Xmf9SO3xadk" data-target="#myModal">
               <figure>
-                <img src="/img/1.png" class="img-responsive" alt="Contabilidad y Finanzas">
+                <img src="./img/1.png" class="img-responsive" alt="Contabilidad y Finanzas">
               </figure>
             </a>
           </div>
 
-           <!-- Modal -->
-           <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-           aria-hidden="true">
-           <div class="modal-dialog upn" role="document">
-             <div class="modal-content">
-               <div class="modal-body upn">
-                 <button type="button" class="close upn" data-dismiss="modal" aria-label="Close">
-                   <span aria-hidden="true">&times;</span>
-                 </button>
-                 <div class="embed-responsive embed-responsive-16by9">
-                   <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
-                     allow="autoplay"></iframe>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog upn" role="document">
+              <div class="modal-content">
+                <div class="modal-body upn">
+                  <button type="button" class="close upn" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+                      allow="autoplay"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>
@@ -175,7 +174,7 @@
             <a href="#" data-toggle="modal" class="link-video-modal tri video-btn video-zoom" data-toggle="modal"
               data-src="https://www.youtube.com/embed/Xmf9SO3xadk" data-target="#myModal">
               <figure>
-                <img src="/img/2.png" class="img-responsive" alt="Contabilidad y Finanzas">
+                <img src="./img/2.png" class="img-responsive" alt="Contabilidad y Finanzas">
               </figure>
             </a>
           </div>
@@ -240,15 +239,15 @@
         </div>
         <div id="laboratorios" class="row">
           <div class="col-md-4 pt-5 relativo">
-            <img class="img-fluid" src="/img/3.png" alt="">
+            <img class="img-fluid" src="./img/3.png" alt="">
             <p class="text-lab">Lorem ipsum dolor sit amet consec</p>
           </div>
           <div class="col-md-4 pt-5">
-            <img class="img-fluid" src="/img/3.png" alt="">
+            <img class="img-fluid" src="./img/3.png" alt="">
             <p class="text-lab">Lorem ipsum dolor sit amet consec</p>
           </div>
           <div class="col-md-4 pt-5">
-            <img class="img-fluid" src="/img/3.png" alt="">
+            <img class="img-fluid" src="./img/3.png" alt="">
             <p class="text-lab">Lorem ipsum dolor sit amet consec</p>
           </div>
         </div>
@@ -355,12 +354,76 @@
           <div class="col-md-4 offset-md-2 pt-5">
             <a class="d-flex justify-content-between btn-conversa" href="">
               <span class="pr-5">CONVERSA CON NOSOTROS</span>
-              <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              <img src="./img/arrow-right-black.svg" alt="">
             </a>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Formulario Mobile-->
+    <div class="modal fade p-0" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog m-0" role="document">
+        <div class="modal-content rounded-0 border-0">
+          <img class="logo-upn" src="./img/logo-vertical.svg" alt="">
+          <div class="float-right">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <img class="pt-4 pr-4" src="./img/close.svg" alt="">
+            </button>
+          </div>
+          <div class="modal-body">
+            <form class="bg-form-tec px-0">
+              <p class="text-purple poppinsbold pl-lg-4 pb-2">Déjanos tus datos y conoce por qué UPN es tu mejor opción
+              </p>
+              <div class="d-flex justify-content-between">
+                <input type="radio" name="grado">
+                <span class="text-black line-form pl-2 size-14 mr-lg-5">PREGRADO</span>
+                <input type="radio" name="grado" class="ml-3 ml-lg-5">
+                <span class="text-black line-form pl-2 size-14">CARRERA PARA GENTE QUE
+                  TRABAJA</span>
+              </div>
+              <div class="form-group d-flex mt-4">
+                <input type="name" class="form-control text-center camp-form" placeholder="NOMBRES">
+                <input type="name" class="form-control text-center camp-form ml-2 ml-lg-4" placeholder="APELLIDOS">
+              </div>
+              <div class="form-group d-flex">
+                <input type="text" class="form-control text-center camp-form" placeholder="DNI">
+                <input type="iphone" class="form-control text-center camp-form ml-2 ml-lg-4" placeholder="CELULAR">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control camp-form" placeholder="CORREO ELECTRONICO">
+              </div>
+              <div class="form-group">
+                <select class="form-control camp-form">
+                  <option>SELECCIONA UNA CARRERA</option>
+                  <option>Ingeniería</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <select class="form-control camp-form">
+                  <option>ESCOGE UN CAMPUS</option>
+                  <option>Norte</option>
+                </select>
+              </div>
+              <div class="form-check pt-3">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label text-black size-14" for="exampleCheck1">Acepto el uso de mis datos
+                  personales de acuerdo a las
+                  <a href="" class="text-form">politicas de privacidad</a>
+                </label>
+              </div>
+              <div class="text-center pt-5 mt-3 pb-5 mb-5">
+                <a href="">
+                  <div class="btn-register">ENVIAR</div>
+                </a>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
 
   </main>
 
