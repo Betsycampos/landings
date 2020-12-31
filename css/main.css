@@ -453,9 +453,10 @@
   }
 
   .stripe:before {
+    content: none;
     height: 0;
     width: 0;
   }
-  
+
 
 }

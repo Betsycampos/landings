@@ -72,20 +72,6 @@
     margin: 0 auto 10px;
 }
 
-.stripe:before {
-    background: #ffffff;
-    -moz-transform: skewY(-5deg);
-    -ms-transform: skewY(-5deg);
-    -webkit-transform: skewY(-5deg);
-    transform: skewY(-10deg);
-    height: 60%;
-    width: 100%;
-    content: "";
-    top: 0px;
-    left: 0;
-    position: absolute;
-}
-
 .line {
     width: 40px;
     height: 2px;
@@ -303,40 +289,6 @@ figure>img {
     margin-top: -15px;
 }
 
-/** video modal **/
-/*.modal-dialog {
-    max-width: 800px;
-    margin: 30px auto;
-}
-
-.modal-body {
-    position: relative;
-    padding: 0px;
-}
-
-.close {
-    position: absolute;
-    right: -30px;
-    top: 0;
-    z-index: 999;
-    font-size: 2rem;
-    font-weight: normal;
-    color: #fff;
-    opacity: 1;
-}*/
-
-/*.modal-dialog .modal-content button.close {
-    right: 0px;
-    top: -24px;
-    background-color: #fff;
-    padding: 12px;
-    display: block;
-    background-image: url('https://www.upn.edu.pe/sites/default/themes/upn/img/icon-close.svg');
-    width: 10px;
-    height: 10px;
-    background-position: center;
-    background-repeat: no-repeat;
-}*/
 
 /** slider viajes **/
 
@@ -409,6 +361,16 @@ figure>img {
     border-right: 1px solid #000000;
 }
 
+@media (min-width: 767px) {
+    .cta-fixed {
+        position: inherit;
+        top: inherit;
+        z-index: inherit;
+        width: inherit;
+        left: inherit;
+        display: inherit;
+    }
+}
 
 @media (min-width: 768px) {
 
@@ -433,10 +395,6 @@ figure>img {
 
     .image-mobile-internacionalidad {
         background-image: none;
-    }
-
-    .stripe:before {
-        content: none;
     }
 
     .title h1 {
@@ -529,17 +487,6 @@ figure>img {
 
 }
 
-@media (min-width: 860px) {
-    .cta-fixed {
-        position: inherit;
-        top: inherit;
-        z-index: inherit;
-        width: inherit;
-        left: inherit;
-        display: inherit;
-    }
-}
-
 @media (min-width: 992px) {
 
     .cta-yellow>a {
@@ -581,7 +528,6 @@ figure>img {
         height: 120px;
     }
 
-    
     .box .number {
         width: 38%;
     }
