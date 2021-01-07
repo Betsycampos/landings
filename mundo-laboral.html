@@ -24,13 +24,14 @@
           <h1 class="poppinsbold text-purple d-block d-md-none pb-5">
             TU FUTURO ES UNA PÁGINA EN <br> BLANCO. DIBÚJALO COMO TU <br> QUIERAS EN UPN
           </h1>
-          <div class="d-none d-md-block">
+          <!--<div class="d-none d-md-block">
             <div class="d-flex justify-content-between style-btn-asesor bg-yellow mt-5">
               <p class="m-0">HABLAR CON UN ASESOR </p>
               <img src="./img/arrow-right-black.svg" alt="">
             </div>
-          </div>
-          <div class="d-block d-md-none mt-5 pt-5">
+          </div>-->
+
+          <!--<div class="d-block d-md-none mt-5 pt-5">
             <div class="d-flex justify-content-between style-btn-asesor bg-yellow mt-5" type="button"
               data-toggle="modal" data-target="#exampleModal">
               <p class="m-0">POSTULA AHORA</p>
@@ -40,7 +41,21 @@
               <p class="m-0">HABLAR CON UN ASESOR </p>
               <img src="./img/arrow-right-black.svg" alt="">
             </div>
+          </div>-->
+
+          <div class="cta cta-header pt-md-4 mb-5 text-uppercase">
+            <a href="" target="_blank"
+              class="text-black d-flex d-md-none justify-content-between bg-yellow btn-border-r" type="button"
+              data-toggle="modal" data-target="#exampleModal">
+              Postula AHORA
+              <img src="./img/arrow-right-black.svg">
+            </a>
+            <a href="" target="_blank" class="text-black d-flex justify-content-between bg-yellow">
+              HABLAR CON UN ASESOR
+              <img src="./img/arrow-right-black.svg">
+            </a>
           </div>
+
         </div>
         <div class="col-md-6 offset-md-6 col-lg-5 offset-lg-7 d-none d-md-block">
           <form class="bg-form-tec border-form">
@@ -359,33 +374,25 @@
 
   </main>
 
-  <footer class="footer">
-
+  <footer class="section bg-black text-white py-3 py-md-5">
+    <div class="container-lg">
+      <div class="row">
+        <div class="col-12">
+          <p class="mb-0">© Universidad Privada del Norte | Perú</p>
+        </div>
+      </div>
+    </div>
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
+  </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
-
-  <script>
-    $(document).ready(function () {
-      var $videoSrc;
-      $('.video-btn').click(function () {
-        $videoSrc = $(this).data("src");
-      });
-      console.log($videoSrc);
-      $('#myModal').on('shown.bs.modal', function (e) {
-        $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
-      })
-      $('#myModal').on('hide.bs.modal', function (e) {
-        $("#video").attr('src', $videoSrc);
-      })
-    });
   </script>
+
+  <script type="text/javascript" src="js/landings.js"></script>
 
 </body>
 
