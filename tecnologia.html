@@ -26,13 +26,13 @@
             TECNOLOGÍA AL CENTRO <br class="d-none d-md-block"> DE <br class="d-block d-md-none"> NUESTRA PROPUESTA <br
               class="d-none d-md-block"> EDUCATIVA
           </h1>
-          <div class="d-none d-md-block">
+          <!--<div class="d-none d-md-block">
             <div class="d-flex justify-content-between style-btn-asesor mt-5">
               <p class="m-0">HABLAR CON UN ASESOR </p>
               <img src="./img/down-arrow.svg" alt="">
             </div>
-          </div>
-          <div class="d-block d-md-none ">
+          </div>-->
+          <!--<div class="d-block d-md-none ">
             <div class="d-flex justify-content-between style-btn-asesor mt-5" type="button" data-toggle="modal"
               data-target="#exampleModal">
               <p class="m-0">POSTULA AHORA</p>
@@ -42,7 +42,21 @@
               <p class="m-0">HABLAR CON UN ASESOR </p>
               <img src="./img/down-arrow.svg" alt="">
             </div>
+          </div>-->
+
+
+          <div class="cta cta-header pt-md-4 mb-5 text-uppercase">
+            <a href="" target="_blank" class="bg-black text-white d-flex d-md-none justify-content-between border-white" type="button"
+              data-toggle="modal" data-target="#exampleModal">
+              Postula AHORA
+              <img src="./img/down-arrow.svg">
+            </a>
+            <a href="" target="_blank" class="bg-black text-white d-flex justify-content-between border-white">
+              HABLAR CON UN ASESOR
+              <img src="./img/down-arrow.svg">
+            </a>
           </div>
+
         </div>
         <div class="col-md-6 offset-md-6 col-lg-5 offset-lg-7 d-none d-md-block">
           <form class="bg-form-tec">
@@ -427,19 +441,29 @@
 
   </main>
 
-  <footer class="footer">
-  </footer>
+  <footer class="section bg-black text-white py-3 py-md-5">
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-12">
+                <p class="mb-0">© Universidad Privada del Norte | Perú</p>
+            </div>
+        </div>
+    </div>
+</footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.6/slick.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
+  </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
+  </script>
 
-  <script>
+ <script type="text/javascript" src="js/landings.js"></script>
+
+<!--scripts en js landings-->
+  <!--<script>
     $(document).ready(function () {
       var $videoSrc;
       $('.video-btn').click(function () {
@@ -453,9 +477,9 @@
         $("#video").attr('src', $videoSrc);
       })
     });
-  </script>
+  </script>-->
 
-  <script>
+  <!--<script>
     $('#laboratorios').slick({
       infinite: true,
       slidesToShow: 3,
@@ -467,31 +491,31 @@
       nextArrow: false,
       prevArrow: false,
       responsive: [{
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
         }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
       ]
     });
-  </script>
+  </script>-->
 
 </body>
 
