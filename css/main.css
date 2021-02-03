@@ -375,7 +375,7 @@ a:hover {
   bottom: 28px;
 }
 
-.link-video-modal::after {
+/* .link-video-modal::after {
   content: '';
   background: white;
   border-radius: 50%;
@@ -387,9 +387,9 @@ a:hover {
   z-index: 5;
   left: 20px;
   bottom: 24px;
-}
+} */
 
-.tri::before {
+/* .tri::before {
   content: '';
   display: block;
   position: absolute;
@@ -401,7 +401,7 @@ a:hover {
   border-left: 30px solid #8330f5;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-}
+} */
 
 .modal-dialog.upn {
   max-width: 800px;
