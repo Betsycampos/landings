@@ -114,15 +114,16 @@ a:hover {
 }
 
 .header-internacionalidad {
-  background-image: url('../img/bg-internacionalidad-2.png');
+  background-image: url('../img/banner-internacionalidad-mobile.png');
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   height: auto;
   min-height: 566px;
 }
 
 .header-empleabilidad {
-  background-image: url('../img/bg-empleabilidad.png');
+  background-image: url('../img/banner-empleabilidad-mobile.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
@@ -633,6 +634,10 @@ figure>img {
   padding: 8px 0;
 }
 
+.country img{
+  width: 100px;
+}
+
 /***acordeon**/
 .style-accordion .card {
   margin-bottom: 10px;
@@ -817,17 +822,17 @@ figure>img {
   }
 
   .header-internacionalidad {
+    background-image: url('../img/banner-internacionalidad-desktop.png');
     background-size: cover;
+    background-position: right;
     height: auto;
-    background-image: none;
-    background: #ffffff;
   }
 
   .header-empleabilidad {
+    background-image: url('../img/banner-empleabilidad-desktop.png');
     background-size: cover;
+    background-position: right;
     height: auto;
-    background-image: none;
-    background: #ffffff;
   }
 
   .logo-container-2 img {
@@ -839,8 +844,6 @@ figure>img {
   }
 
   .first-title h1 {
-    color: #000000;
-    font-family: 'poppinsbold';
     font-size: 45px;
     line-height: 48px;
   }
