@@ -74,7 +74,7 @@ a,
 a:focus,
 a:active,
 a:hover {
-  color: initial !important;
+  color: inherit !important;
   outline: none !important;
 }
 
@@ -95,37 +95,38 @@ a:hover {
 }
 
 .header-tecnologia {
-  background-image: url('../img/4.png');
-  background-repeat: no-repeat;
+  background: url('../img/banner-tecnologia-mobile.jpg') no-repeat;
+  background-position: center;
   background-size: cover;
+  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
   width: 100%;
   min-height: 449px;
   position: relative;
 }
 
 .header-mundo-laboral {
-  background-image: url('../img/bg-1.png');
-  background-repeat: no-repeat;
-  background-position: bottom;
+  background: url('../img/banner-colegios-mobile.jpg') no-repeat;
+  background-position: center;
   background-size: cover;
-  width: 100%;
+  /*box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.1);*/
+  height: auto;
   min-height: 566px;
-  position: relative;
 }
 
 .header-internacionalidad {
-  background-image: url('../img/banner-internacionalidad-mobile.png');
-  background-repeat: no-repeat;
+  background: url('../img/banner-internacionalidad-mobile.jpg') no-repeat;
   background-position: center;
   background-size: cover;
+  /*box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.1);*/
   height: auto;
   min-height: 566px;
 }
 
 .header-empleabilidad {
-  background-image: url('../img/banner-empleabilidad-mobile.png');
+  background-image: url('../img/banner-empleabilidad-mobile.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
   height: auto;
   min-height: 566px;
 }
@@ -219,7 +220,7 @@ a:hover {
 }
 
 .border-form {
-  border: 1px solid #a6a6a6;
+  /*border: 1px solid #a6a6a6;*/
 }
 
 .bg-black {
@@ -449,20 +450,24 @@ a:hover {
   text-decoration: none !important;
   font-family: poppinssemibold;
   padding: 14px 89px;
+  display: inline-block;
 }
 
 .camp-form {
   border-radius: 0;
-  height: calc(1.5em + 0.75rem + 10px);
-  border: 1px solid #a6a6a6;
+  height: 39px /*calc(1.5em + 0.75rem + 10px)*/;
+  /*border: 1px solid #a6a6a6;*/
+  font-size: 15px;
+  text-transform: capitalize;
 }
 
 .bg-form-tec {
   background-color: white;
   width: 100%;
-  border-radius: 9px;
   margin-top: 30px;
-  padding: 30px 28px;
+  padding: 20px 20px 30px 20px;
+  font-family: poppinsregular;
+  border-radius: 5px;
 }
 
 .bg-form-tec .form-control:focus {
@@ -471,6 +476,25 @@ a:hover {
   border-color: #a6a6a6;
   outline: 0;
   box-shadow: 0 0 black;
+}
+
+.bg-form-tec .form-group{
+  margin-bottom: 16px;
+}
+
+.bg-form-tec select {
+  -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    background-image: url('../img/arrow-down-black.svg');
+    background-repeat: no-repeat;
+    background-position-x: 99%;
+    background-position-y: 9px;
+    margin-right: 2rem;
+    background-size: 20px;
+    padding: 10px;
+    padding-right: 2rem;
 }
 
 .line-form {
@@ -807,32 +831,38 @@ figure>img {
 
 @media (min-width: 768px) {
 
+  .bg-form-tec {
+    box-shadow: 0px 3px 6px #00000029;
+  }
+
   .header-tecnologia {
-    background-color: #232323;
-    background-image: none;
-    min-height: 658px;
-    position: relative;
+    background: url('../img/banner-tecnologia-desktop.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 640px;
+    /*min-height: 658px;*/
   }
 
   .header-mundo-laboral {
-    background-color: white;
-    background-image: none;
-    min-height: 658px;
-    position: relative;
+    background: url('../img/banner-colegio-desktop.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 640px;
+    /*min-height: 658px;*/
   }
 
   .header-internacionalidad {
-    background-image: url('../img/banner-internacionalidad-desktop.png');
+    background: url('../img/banner-internacionalidad-desktop.jpg') no-repeat;
     background-size: cover;
-    background-position: right;
-    height: auto;
+    background-position: center;
+    height: 640px;
   }
 
   .header-empleabilidad {
-    background-image: url('../img/banner-empleabilidad-desktop.png');
+    background: url('../img/banner-empleabilidad-desktop--2.jpg') no-repeat;
     background-size: cover;
-    background-position: right;
-    height: auto;
+    background-position: top right;
+    height: 640px;
   }
 
   .logo-container-2 img {
@@ -911,7 +941,7 @@ figure>img {
   }
 
   .btn-register {
-    padding: 14px 118px;
+    padding: 12px 118px;
   }
 
   .logo-upn {
@@ -1152,78 +1182,10 @@ figure>img {
   width: 100%;
   display: flex;
 }
-/**mobile dropdown convenios univ**/
-
-.page-speakers #speakers-section-list .speakers-bio-grid-large {
-  margin-top: 30px;
-  padding-top: 30px;
-  grid-column-gap: 20px;
-}
-.custom-grid.col-2 {
-  -ms-grid-columns: (1fr);
-  grid-template-columns: repeat(2, 1fr);
-  max-width: initial;
-}
-
-.custom-grid {
-  display: -ms-grid;
-  display: grid;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-}
-
-.convenio-info {
-  padding-bottom: 55px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-column: span 3;
-  grid-column: span 3;
-  -ms-grid-column-span: 3;
-  grid-column-gap: 17px;
-  grid-row-gap: 10px;
-
-  -ms-grid-column: 1;
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
 
 
-.column {
-  /*width: 50%;*/
-  text-align: center;
-}
-
-.column .table-responsive{
-  /*overflow-x: initial;*/
-  font-size: 12px;
-  font-family: "poppinsregular";
-  width: 298px;
-}
-
-.column table>thead>tr>th {
-  background-color: #e8e8e8;
-  color: #533838;
-  border: 0 !important;
-  text-align: center;
-  padding: 5px 14px;
-}
-
-.column table>thead ,.column table>tbody {
-  border: 1px solid #e8e8e8;
-}
-
-.column table>tbody>tr{
-  padding: 6px 18px;
-}
-
-.column table>tbody>tr>td>a {
-  color: #fdba30 !important;
-  text-decoration: none;
-  font-weight: 600;
+.flag-mobile{
+  width: 50px;
 }
 
 @media screen and (max-width: 47.9375em) {
