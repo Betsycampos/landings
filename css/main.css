@@ -161,7 +161,7 @@ a:hover {
 
 .position-title {
   position: absolute;
-  bottom: 12%;
+  top: 137px;
 }
 
 .content-title h1 {
@@ -219,10 +219,6 @@ a:hover {
   border: 1px solid #8330f5;
 }
 
-.border-form {
-  /*border: 1px solid #a6a6a6;*/
-}
-
 .bg-black {
   background-color: #000000;
 }
@@ -265,7 +261,7 @@ a:hover {
 
 .style-servicios {
   padding: 17px 20px;
-  min-height: 202px;
+  min-height: 225px;
 }
 
 .relativo {
@@ -288,7 +284,7 @@ a:hover {
 .justify-content-around.bg-purple,
 .justify-content-around.bg-black,
 .justify-content-around.bg-white {
-  min-height: 196px;
+  min-height: 258px;
 }
 
 .justify-content-around.bg-purple .text-center,
@@ -427,9 +423,11 @@ a:hover {
 }
 
 .text-lab {
-  position: absolute;
-  left: 34px;
-  bottom: 0px;
+  font-size: 13px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 8px 0;
 }
 
 #laboratorios .slick-dots li button:before {
@@ -464,7 +462,7 @@ a:hover {
 .bg-form-tec {
   background-color: white;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 42px;
   padding: 20px 20px 30px 20px;
   font-family: poppinsregular;
   border-radius: 5px;
@@ -839,7 +837,7 @@ figure>img {
     background: url('../img/banner-tecnologia-desktop.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    height: 640px;
+    height: 657px;
     /*min-height: 658px;*/
   }
 
@@ -848,7 +846,7 @@ figure>img {
     background-size: cover;
     background-position: center;
     height: 640px;
-    /*min-height: 658px;*/
+    min-height: 664px;
   }
 
   .header-internacionalidad {
@@ -878,9 +876,12 @@ figure>img {
     line-height: 48px;
   }
 
-  .content-title,
-  .position-title {
+  .content-title {
     bottom: 26%;
+  }
+
+  .position-title {
+    top: 252px;
   }
 
   .content-title h1 {
