@@ -17,7 +17,7 @@
 
 <body class="bg-global">
 
-    <header class="header-tecnologia">
+    <header class="header-tecnologia relativo">
         <img class="logo-upn" src="./img/logo-vertical.svg" alt="">
         <div class="container-fluid px-md-5">
             <div class="row">
@@ -42,43 +42,42 @@
 
                 <div class="col-12 d-none d-md-block">
                     <form class="bg-form-tec">
-                        <p class="text-purple poppinsbold pl-lg-4 pb-2">Déjanos tus datos y conoce por qué UPN <br
+                        <p class="text-purple poppinsbold pb-2">Déjanos tus datos y conoce por qué UPN <br
                                 class="d-none d-md-block"> es tu mejor opción
                         </p>
                         <div class="d-flex justify-content-center">
                             <input type="radio" name="grado">
-                            <span class="text-black line-form pl-2 size-14 mr-lg-5">PREGRADO</span>
+                            <span class="text-black line-form pl-2 size-14 mr-lg-5">Pregrado</span>
                             <input type="radio" name="grado" class="ml-3 ml-lg-5">
-                            <span class="text-black line-form pl-2 size-14">CARRERA PARA <br class="d-none d-lg-block">
-                                GENTE QUE
-                                TRABAJA</span>
+                            <span class="text-black line-form pl-2 size-14">Carreras
+                                Gente que Trabaja</span>
                         </div>
                         <div class="form-group d-flex justify-content-between mt-4">
-                            <input type="name" class="form-control text-center camp-form" placeholder="NOMBRES">
-                            <input type="name" class="form-control text-center camp-form ml-2 ml-lg-4"
-                                placeholder="APELLIDOS">
+                            <input type="name" class="form-control camp-form" placeholder="Nombres">
+                            <input type="name" class="form-control camp-form ml-2 ml-lg-3"
+                                placeholder="Apellidos">
                         </div>
                         <div class="form-group d-flex justify-content-between">
-                            <input type="text" class="form-control text-center camp-form" placeholder="DNI">
-                            <input type="iphone" class="form-control text-center camp-form ml-2 ml-lg-4"
-                                placeholder="CELULAR">
+                            <input type="text" class="form-control camp-form text-uppercase" placeholder="dni">
+                            <input type="iphone" class="form-control camp-form ml-2 ml-lg-3"
+                                placeholder="Celular">
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control camp-form" placeholder="CORREO ELECTRONICO">
+                            <input type="email" class="form-control camp-form" placeholder="Correo electrónico">
                         </div>
                         <div class="form-group">
                             <select class="form-control camp-form">
-                                <option>SELECCIONA UNA CARRERA</option>
+                                <option>Selecciona una carrera</option>
                                 <option>Ingeniería</option>
                             </select>
                         </div>
                         <div class="form-group">
                             <select class="form-control camp-form">
-                                <option>ESCOGE UN CAMPUS</option>
+                                <option>Escoge un campus</option>
                                 <option>Norte</option>
                             </select>
                         </div>
-                        <div class="form-check">
+                        <div class="form-check pt-2">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label text-black size-14" for="exampleCheck1">Acepto el uso de mis
                                 datos
@@ -86,7 +85,7 @@
                                 <a href="" class="text-form">politicas de privacidad</a>
                             </label>
                         </div>
-                        <div class="text-center pt-4 mt-3">
+                        <div class="text-center mt-3">
                             <a class="btn-register" href="">ENVIAR</a>
                         </div>
                     </form>
@@ -122,28 +121,30 @@
             </div>
         </section>
 
-        <section class="py-5">
-            <div class="container">
+        <section class="historia py-1 py-md-4">
+            <div class="container-lg">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-12">
                         <h4 class="text-uppercase ">+ Historia de éxito</h4>
                         <div class="line-title"></div>
-                        <p class=" pt-4">ANDREA C.</p>
-                        <p class=" pt-4">¡Vive tu pasión en UPN! Sé parte del cambio que la sociedad necesita
-                            y desarrolla tus habilidades para alcanzar tus metas profesionales con nuestro innovador
-                            modelo educativo.
-                        </p>
+                        <div class="row d-flex">
+                            <div class="col-12 col-md-5 col-lg-4 offset-lg-1 order-1 order-md-2 pt-5 pt-md-0">
+                                <a href="#" data-toggle="modal" class="link-video-modal tri video-btn video-zoom"
+                                    data-src="https://www.youtube.com/embed/iqY6s45g6Dw?list=PLIoLKIIOnhJe8LGr24RZGEXZ20WP3PoUb" data-target="#myModal">
+                                    <figure>
+                                        <img src="./img/testimonio.jpg" class="img-fluid" alt="">
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+                                <!-- <p class=" pt-4"><b>ANDREA C.</b></p> -->
+                                <!-- <div class="line line-black d-block d-md-none"></div> -->
+                                <p class=" pt-4">¡Vive tu pasión en UPN! Sé parte del cambio que la sociedad necesita
+                                    y desarrolla tus habilidades para alcanzar tus metas profesionales con nuestro innovador
+                                    modelo educativo.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4 offset-md-2 link-image-modal text-center pt-3 pt-md-4">
-                        <a href="#" data-toggle="modal" class="link-video-modal tri video-btn video-zoom"
-                            data-toggle="modal" data-src="https://www.youtube.com/embed/Xmf9SO3xadk">
-                            <!-- data-target="#myModal" -->
-                            <figure>
-                                <img src="./img/1.png" class="img-responsive" alt="Contabilidad y Finanzas">
-                            </figure>
-                        </a>
-                    </div>
-
                 </div>
             </div>
         </section>
@@ -157,8 +158,7 @@
                     </div>
                     <div class="col-md-4 link-image-modal text-center pt-5">
                         <a href="#" data-toggle="modal" class="link-video-modal tri video-btn video-zoom"
-                            data-toggle="modal" data-src="https://www.youtube.com/embed/Xmf9SO3xadk">
-                            <!-- data-target="#myModal" -->
+                            data-toggle="modal" data-target="#myModal" data-src="https://www.youtube.com/embed/TUHw7-CrT6Y">
                             <figure>
                                 <img src="./img/ensenanza.jpg" class="img-responsive" alt="Contabilidad y Finanzas">
                             </figure>
@@ -175,7 +175,7 @@
             </div>
         </section>
 
-        <section class="py-5">
+        <section class="py-md-5 pb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -227,16 +227,16 @@
                 <div id="laboratorios" class="row">
                     <div class="col-md-4 pt-5 relativo">
                         <img class="img-fluid" src="./img/tecnologia-1.jpg" alt="">
-                        <p class="text-lab d-block d-sm-none">Desliza y conoce nuestra moderna infraestructura</p>
+                        <p class="text-lab">Laboratorio de Automatización - Trujillo, San Isidro</p>
                     </div>
                     <div class="col-md-4 pt-5">
                         <img class="img-fluid" src="./img/tecnologia-2.jpg" alt="">
-                        <p class="text-lab d-block d-sm-none">Desliza y conoce nuestra moderna infraestructura</p>
+                        <p class="text-lab">Laboratorio de Mecatrónica - Los Olivos</p>
 
                     </div>
                     <div class="col-md-4 pt-5">
                         <img class="img-fluid" src="./img/tecnologia-3.jpg" alt="">
-                        <p class="text-lab d-block d-sm-none">Desliza y conoce nuestra moderna infraestructura</p>
+                        <p class="text-lab">Laboratorio de Química - Cajamarca</p>
 
                     </div>
                 </div>
@@ -254,7 +254,7 @@
                         <div class="style-servicios bg-purple">
                             <h5 class="text-uppercase ">Universidad licenciada</h5>
                             <div class="line-title bg-white"></div>
-                            <p class="pt-3 pb-5">
+                            <p class="pt-3">
                                 Somos una universidad
                                 licenciada por Sunedu y con
                                 calidad educativa de nivel
@@ -266,7 +266,7 @@
                         <div class="style-servicios bg-black">
                             <h5 class="text-uppercase ">Accesibilidad</h5>
                             <div class="line-title"></div>
-                            <p class="pt-3 pb-4">
+                            <p class="pt-3">
                                 Contamos con plataformas virtuales 24/7 para potenciar tu educación.
                             </p>
                         </div>
@@ -302,7 +302,9 @@
                             </div>
                             <div class="p-4">
                                 <p class="">FORMULARIO</p>
-                                <p class="m-0">Registra tus datos en el siguiente formulario.</p>
+                                <p class="m-0 text-14">Registra tus datos completos en el formulario que te  
+                                    presentamos.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -314,7 +316,9 @@
                             </div>
                             <div class="p-4">
                                 <p class="">DOCUMENTOS</p>
-                                <p class="m-0">Conoce los documentos que debes presentar para tu inscripción.</p>
+                                <p class="m-0 text-14">Conoce los documentos que debes presentar  
+                                    para tu inscripción según tu modalidad de ingreso.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -326,8 +330,9 @@
                             </div>
                             <div class="p-4">
                                 <p class="">PAGOS</p>
-                                <p class="m-0">El costo de la mensualidad varía de acuerdo a la carrera profesional
-                                    de tu elección. Pregunta por las modalidades de pago.
+                                <p class="m-0 text-14">El costo de la mensualidad varía de acuerdo a la 
+                                    carrera profesional de tu elección. Pregunta por  
+                                    las modalidades de pago.
                                 </p>
                             </div>
                         </div>
@@ -336,7 +341,7 @@
             </div>
         </section>
 
-        <section class="py-5">
+        <section class="py-md-5 pb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -389,46 +394,45 @@
                     </div>
                     <div class="modal-body">
                         <form class="bg-form-tec px-0">
-                            <p class="text-purple poppinsbold pl-lg-4 pb-2">Déjanos tus datos y conoce por qué UPN es tu
+                            <p class="text-purple poppinsbold pb-2">Déjanos tus datos y conoce por qué UPN es tu
                                 mejor opción
                             </p>
-                            <div class="d-flex justify-content-between">
+                            <div class="d-flex justify-content-start">
                                 <input type="radio" name="grado">
-                                <span class="text-black line-form pl-2 size-14 mr-lg-5">PREGRADO</span>
-                                <input type="radio" name="grado" class="ml-3 ml-lg-5">
-                                <span class="text-black line-form pl-2 size-14">CARRERA PARA GENTE QUE
-                                    TRABAJA</span>
+                                <span class="text-black line-form pl-2 size-14">Pregrado</span>
+                                <input type="radio" name="grado" class="ml-3">
+                                <span class="text-black line-form pl-2 size-14">Carreras Gente que
+                                    Trabaja</span>
                             </div>
                             <div class="form-group d-flex justify-content-between mt-4">
-                                <input type="name" class="form-control text-center camp-form" placeholder="NOMBRES">
-                                <input type="name" class="form-control text-center camp-form ml-2 ml-lg-4"
-                                    placeholder="APELLIDOS">
+                                <input type="name" class="form-control camp-form" placeholder="Nombres">
+                                <input type="name" class="form-control camp-form ml-2"
+                                    placeholder="Apellidos">
                             </div>
                             <div class="form-group d-flex justify-content-between">
-                                <input type="text" class="form-control text-center camp-form" placeholder="DNI">
-                                <input type="iphone" class="form-control text-center camp-form ml-2 ml-lg-4"
-                                    placeholder="CELULAR">
+                                <input type="text" class="form-control camp-form text-uppercase" placeholder="dni">
+                                <input type="iphone" class="form-control camp-form ml-2"
+                                    placeholder="Celular">
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control camp-form" placeholder="CORREO ELECTRONICO">
+                                <input type="email" class="form-control camp-form" placeholder="Correo electrónico">
                             </div>
                             <div class="form-group">
                                 <select class="form-control camp-form">
-                                    <option>SELECCIONA UNA CARRERA</option>
+                                    <option>Selecciona una carrera</option>
                                     <option>Ingeniería</option>
                                 </select>
                             </div>
                             <div class="form-group">
                                 <select class="form-control camp-form">
-                                    <option>ESCOGE UN CAMPUS</option>
+                                    <option>Escoge un campus</option>
                                     <option>Norte</option>
                                 </select>
                             </div>
                             <div class="form-check pt-3">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                 <label class="form-check-label text-black size-14" for="exampleCheck1">Acepto el uso de
-                                    mis datos
-                                    personales de acuerdo a las
+                                    mis datos  personales de acuerdo a las
                                     <a href="" class="text-form">politicas de privacidad</a>
                                 </label>
                             </div>

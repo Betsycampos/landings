@@ -100,8 +100,7 @@ a:hover {
   background-size: cover;
   box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
   width: 100%;
-  min-height: 449px;
-  position: relative;
+  min-height: 566px;
 }
 
 .header-mundo-laboral {
@@ -211,6 +210,10 @@ a:hover {
 
 .text-purple {
   color: #8330f5;
+}
+
+.title-purple {
+  color: #8330f5 !important;
 }
 
 .text-yellow {
@@ -858,8 +861,8 @@ figure>img {
     background: url('../img/banner-tecnologia-desktop.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    height: 657px;
-    /*min-height: 658px;*/
+    height: 640px;
+    min-height: 628px;
   }
 
   .header-mundo-laboral {
