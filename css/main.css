@@ -199,6 +199,12 @@ a:hover {
   font-family: poppinsbold;
 }
 
+.text-shadow {
+  color: #232323;
+}
+
+
+
 .text-black {
   color: #000000;
 }
@@ -225,6 +231,10 @@ a:hover {
 
 .bg-purple {
   background-color: #8330f5;
+}
+
+.text-14 {
+  font-size: 14px;
 }
 
 .line-title {
@@ -284,7 +294,7 @@ a:hover {
 .justify-content-around.bg-purple,
 .justify-content-around.bg-black,
 .justify-content-around.bg-white {
-  min-height: 258px;
+  min-height: 200px;
 }
 
 .justify-content-around.bg-purple .text-center,
@@ -373,7 +383,7 @@ a:hover {
   bottom: 28px;
 }
 
-/* .link-video-modal::after {
+.link-video-modal::after {
   content: '';
   background: white;
   border-radius: 50%;
@@ -385,9 +395,9 @@ a:hover {
   z-index: 5;
   left: 20px;
   bottom: 24px;
-} */
+}
 
-/* .tri::before {
+.tri::before {
   content: '';
   display: block;
   position: absolute;
@@ -399,7 +409,7 @@ a:hover {
   border-left: 30px solid #8330f5;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-} */
+}
 
 .modal-dialog.upn {
   max-width: 800px;
@@ -456,7 +466,6 @@ a:hover {
   height: 39px /*calc(1.5em + 0.75rem + 10px)*/;
   /*border: 1px solid #a6a6a6;*/
   font-size: 15px;
-  text-transform: capitalize;
 }
 
 .bg-form-tec {
@@ -464,7 +473,7 @@ a:hover {
   width: 100%;
   margin-top: 42px;
   padding: 20px 20px 30px 20px;
-  font-family: poppinsregular;
+  font-family: poppinslight;
   border-radius: 5px;
 }
 
@@ -477,7 +486,7 @@ a:hover {
 }
 
 .bg-form-tec .form-group{
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .bg-form-tec select {
@@ -491,7 +500,7 @@ a:hover {
     background-position-y: 9px;
     margin-right: 2rem;
     background-size: 20px;
-    padding: 10px;
+    padding: 9px;
     padding-right: 2rem;
 }
 
@@ -836,6 +845,11 @@ figure>img {
     right: 0;
   }
 
+  .text-shadow {
+    text-shadow: 1px 1px 1px black;
+    color: white;
+  }
+
   .header-tecnologia {
     background: url('../img/banner-tecnologia-desktop.jpg') no-repeat;
     background-size: cover;
@@ -845,11 +859,11 @@ figure>img {
   }
 
   .header-mundo-laboral {
-    background: url('../img/banner-colegio-desktop.jpg') no-repeat;
+    background: url('../img/banner-colegios-desktop--2.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     height: 640px;
-    min-height: 664px;
+    min-height: 628px;
   }
 
   .header-internacionalidad {
@@ -864,6 +878,15 @@ figure>img {
     background-size: cover;
     background-position: top right;
     height: 640px;
+  }
+
+  .border-white2 {
+    border: 2px solid white;
+  }
+
+  .rector-text {
+    position: absolute; 
+    bottom: 54px;
   }
 
   .logo-container-2 img {
