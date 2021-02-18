@@ -16,23 +16,22 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.min.css">
 
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles-tab.css">
 </head>
 
 <body>
-    <header>
+
+    <header class="header-internacionalidad">
         <div class="logo-container-2">
             <img class="" src="./img/logo-vertical.svg" alt="">
         </div>
-    </header>
-
-    <section class="header-internacionalidad">
-        <div class="container-lg">
+        <div class="container-fluid px-md-5">
             <div class="row">
-                <div class="col-xs-12 col-md-6 col-lg-7">
+                <div class="col-xs-12 col-md-6 col-lg-6">
                     <div class="height-top-text"></div>
                     <div class="mt-5">
                         <div class="first-title text-uppercase">
-                            <h1>TU PUERTA DE ENTRADA <br class="d-block d-lg-none">HACIA UNA EXPERIENCIA GLOBAL</h1>
+                            <h1 class="pt-lg-5 text-shadow">TU PUERTA DE ENTRADA <br class="d-block d-lg-none">HACIA UNA EXPERIENCIA GLOBAL</h1>
                         </div>
                         <div class="cta cta-header pt-md-4 mb-5 text-uppercase">
                             <a href="" target="_blank"
@@ -42,53 +41,48 @@
                                 <img src="./img/arrow-right-black.svg">
                             </a>
                             <a href="" target="_blank" class="text-black d-flex justify-content-between bg-yellow">
-                                HABLAR CON UN ASESOR
+                                HABLA CON UN ASESOR
                                 <img src="./img/arrow-right-black.svg">
                             </a>
                         </div>
                     </div>
                 </div>
-
-
-                <div class="col-xs-12 col-md-6 col-lg-5 d-none d-md-block">
-                    <form class="bg-form-tec border-form">
-                        <p class="text-purple poppinsbold pl-lg-4 pb-2">Déjanos tus datos y conoce por qué UPN <br
+                <div class="col-12 col-md-6 col-lg-6 d-none d-md-block">
+                    <form class="bg-form-tec">
+                        <p class="text-purple poppinsbold pb-2">Déjanos tus datos y conoce por qué UPN <br
                                 class="d-none d-md-block"> es tu mejor opción
                         </p>
                         <div class="d-flex justify-content-center">
                             <input type="radio" name="grado">
-                            <span class="text-black line-form pl-2 size-14 mr-lg-5">PREGRADO</span>
+                            <span class="text-black line-form pl-2 size-14 mr-lg-5">Pregrado</span>
                             <input type="radio" name="grado" class="ml-3 ml-lg-5">
-                            <span class="text-black line-form pl-2 size-14">CARRERA PARA <br class="d-none d-lg-block">
-                                GENTE QUE
-                                TRABAJA</span>
+                            <span class="text-black line-form pl-2 size-14">Carreras
+                                Gente que Trabaja</span>
                         </div>
-                        <div class="form-group d-flex mt-4">
-                            <input type="name" class="form-control text-center camp-form" placeholder="NOMBRES">
-                            <input type="name" class="form-control text-center camp-form ml-2 ml-lg-4"
-                                placeholder="APELLIDOS">
+                        <div class="form-group d-flex justify-content-between mt-4">
+                            <input type="name" class="form-control camp-form" placeholder="Nombres">
+                            <input type="name" class="form-control camp-form ml-2 ml-lg-3" placeholder="Apellidos">
                         </div>
-                        <div class="form-group d-flex">
-                            <input type="text" class="form-control text-center camp-form" placeholder="DNI">
-                            <input type="iphone" class="form-control text-center camp-form ml-2 ml-lg-4"
-                                placeholder="CELULAR">
+                        <div class="form-group d-flex justify-content-between">
+                            <input type="text" class="form-control camp-form text-uppercase" placeholder="dni">
+                            <input type="iphone" class="form-control camp-form ml-2 ml-lg-3" placeholder="Celular">
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control camp-form" placeholder="CORREO ELECTRONICO">
+                            <input type="email" class="form-control camp-form" placeholder="Correo electrónico">
                         </div>
                         <div class="form-group">
                             <select class="form-control camp-form">
-                                <option>SELECCIONA UNA CARRERA</option>
+                                <option>Selecciona una carrera</option>
                                 <option>Ingeniería</option>
                             </select>
                         </div>
                         <div class="form-group">
                             <select class="form-control camp-form">
-                                <option>ESCOGE UN CAMPUS</option>
+                                <option>Escoge un campus</option>
                                 <option>Norte</option>
                             </select>
                         </div>
-                        <div class="form-check">
+                        <div class="form-check pt-2">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label text-black size-14" for="exampleCheck1">Acepto el uso de mis
                                 datos
@@ -96,825 +90,575 @@
                                 <a href="" class="text-form">politicas de privacidad</a>
                             </label>
                         </div>
-                        <div class="text-center pt-4 mt-3">
+                        <div class="text-center mt-3">
                             <a class="btn-register" href="">ENVIAR</a>
                         </div>
                     </form>
                 </div>
-
-
-
             </div>
         </div>
-    </section>
+    </header>
 
-    <section class="section stripe py-1 py-md-4 position-relative">
-        <div class="container-lg">
-            <div class="row">
+    <section class="section stripe py-4 py-md-5 position-relative">
+        <div class="container-lg pt-lg-5 pb-lg-2">
+            <!--<div class="row">
                 <div class="col-12 col-md-8 col-lg-6">
                     <h2 class="mt-4">CONVENIOS INTERNACIONALES</h2>
                     <div class="line line-black"></div>
                     <p class="">
-                        La educación de calidad que te brinda UPN no solo te permite destacar aquí, sino que se
-                        complementa con experiencias internacionales de primer nivel.
-
+                        Vive experiencias académicas a través de cursos, diálogos
+                        y colaboraciones con otras universidades de la red Laureate y del mundo.
                     </p>
                 </div>
+            </div>-->
+            <div class="row">
+                <div class="col-md-6 col-lg-5 pb-3 pb-md-2">
+                    <h3 class="highlight-text m-0">CONVENIOS INTERNACIONALES</h3>
+                </div>
+                <div class="col-md-6 col-lg-7">
+                    <div class="highlight-description pl-lg-5">
+                        <p class="mb-1">
+                            <span class="font-weight-bold">Vive experiencias académicas</span> <br>
+                            a través de cursos, diálogos y colaboraciones con <br>
+                            <span class="font-weight-bold">otras universidades de la red Laureate</span>
+                            y del <span class="font-weight-bold">mundo</span>.
+                        </p>
+                    </div>
+
+                </div>
             </div>
+
         </div>
     </section>
 
-    <section class="section py-1 py-md-4 position-relative">
+    <section class="section pt-1 pb-1 pt-md-4 pb-md-5 position-relative bg-gray-section">
         <div class="container-lg">
             <div class="row">
                 <div class="col-12 col-md-8 col-lg-6">
-                    <h2 class="mt-4">DESTINACIÓN</h2>
+                    <h2 class="mt-4">DESTINOS</h2>
                     <div class="line line-black"></div>
-                    <p class="pb-2 pb-md-5">
+                    <p class="pb-2 pb-md-3 mb-0">
                         UPN tiene convenios de cooperación académica con 52 prestigiosas universidades
                     </p>
                 </div>
             </div>
-            <div class="section-country show-for-medium ">
-
-                <div class="country p-1">
-                    <div class="dropdown-wrapper">
-                        <a href="#" class="convenio-toggle active" data-convenio-id="1">
-                            <img class="img-fluid" src="./img/flag_alemania.svg" alt="">
-                            <p class="text-uppercase">Alemania</p>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="country p-1">
-                    <div class="dropdown-wrapper">
-                        <a href="#" class="convenio-toggle active" data-convenio-id="2">
-                            <img class="img-fluid" src="./img/flag_argentina.svg" alt="">
-                            <p class="text-uppercase">ARGENTINA</p>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="country p-1">
-                    <div class="dropdown-wrapper">
-                        <a href="#" class="convenio-toggle active" data-convenio-id="3">
-                            <img class="img-fluid" src="./img/flag_belgica.svg" alt="">
-                            <p class="text-uppercase">BELGICA</p>
-                        </a>
-                    </div>
-
-                </div>
-
-                <div class="country p-1">
-                    <div class="dropdown-wrapper">
-                        <a href="#" class="convenio-toggle active" data-convenio-id="4">
-                            <img class="img-fluid" src="./img/flag_brasil.svg" alt="">
-                            <p class="text-uppercase">BRASIL</p>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="country p-1">
-                    <div class="dropdown-wrapper">
-                        <a href="#" class="convenio-toggle active" data-convenio-id="5">
-                            <img class="img-fluid" src="./img/flag_chile.svg" alt="">
-                            <p class="text-uppercase">CHILE</p>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="country p-1">
-                    <div class="dropdown-wrapper">
-                        <a href="#" class="convenio-toggle active" data-convenio-id="6">
-                            <img class="img-fluid" src="./img/flag_colombia.svg" alt="">
-                            <p class="text-uppercase">COLOMBIA</p>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="tem">
-                    <div class="convenio-univ-toggle-wrap" data-convenio-id="1">
-                        <div style="width: 0;display: inline-block; vertical-align: top;"></div>
-                        <div class="box">
-                            <div id="container-convenios-lista" class="content-list-convenios">
-                                <table class="">
-                                    <thead>
-                                        <tr>
-                                            <th>País</th>
-                                            <th>Universidad</th>
-                                            <th>Página Web</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="view-list hidden" data-pais="alemania">
-                                            <td>Alemania</td>
-                                            <td>University of Applied Sciences Mittweida</td>
-                                            <td><a href="https://www.hs-mittweida.de/en.html"
-                                                    target="_blanck">https://www.hs-mittweida.de/en.html</a></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <div class="close-convenio"><span></span></div>
+            <!--tabs-->
+            <div class="block-tabs">
+                <div class="example-tabs tabs">
+                    <ul class="tab-list nav nav-pills nav-justified">
+                        <li class="active">
+                            <a href="#tab-1" data-toggle="tab" class="scroll">
+                                <img src="img/flag-circle-alemania.svg">
+                                <span>Alemania</span>
+                            </a>
+                        </li>
+                        <li><a href="#tab-2" data-toggle="tab" class="scroll">
+                                <img src="img/flag-circle-argentina.svg">
+                                <span>Argentina</span>
+                            </a>
+                        </li>
+                        <li><a href="#tab-3" data-toggle="tab" class="scroll">
+                                <img src="img/flag-circle-belgica.svg">
+                                <span>Bélgica</span>
+                            </a>
+                        </li>
+                        <li><a href="#tab-4" data-toggle="tab" class="scroll">
+                                <img src="img/flag-circle-brasil.svg">
+                                <span>Brasil</span>
+                            </a>
+                        </li>
+                        <li><a href="#tab-5" data-toggle="tab" class="scroll">
+                                <img src="img/flag-circle-chile.svg">
+                                <span>Chile</span>
+                            </a>
+                        </li>
+                        <li><a href="#tab-6" data-toggle="tab" class="scroll">
+                                <img src="img/flag-circle-colombia.svg">
+                                <span>Colombia</span>
+                            </a>
+                        </li>
+                        <li><a href="#tab-7" data-toggle="tab" class="scroll">
+                                <img src="img/flag-circle-costarica.svg">
+                                <span>Costa Rica</span>
+                            </a>
+                        </li>
+                        <li><a href="#tab-8" data-toggle="tab" class="scroll">
+                                <img src="img/flag-circle-espana.svg">
+                                <span>España</span>
+                            </a>
+                        </li>
+                        <li><a href="#tab-9" data-toggle="tab" class="scroll">
+                                <img src="img/flag-circle-mexico.svg">
+                                <span>México</span>
+                            </a>
+                        </li>
+                        <li><a href="#tab-10" data-toggle="tab" class="scroll">
+                                <img src="img/flag-circle-panama.svg">
+                                <span>Panamá</span>
+                            </a>
+                        </li>
+                        <li><a href="#tab-11" data-toggle="tab" class="scroll">
+                                <img src="img/flag-circle-portugal.svg">
+                                <span>Portugal</span>
+                            </a>
+                        </li>
+                        <li><a href="#tab-12" data-toggle="tab" class="scroll">
+                                <img src="img/flag-circle-puertorico.svg">
+                                <span>Puerto Rico</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tab-1">
+                            <div class="tab-container">
+                                <div class="close-tab"></div>
+                                <div class="table-content">
+                                    <div class="content-tab-top" role="row">
+                                        <span role="column-header" class="narrow d-none d-md-block">País</span>
+                                        <span role="column-header">Universidad</span>
+                                        <span role="column-header" class="wide">Pagina Web</span>
+                                    </div>
+                                    <div class="content-tab-body">
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Alemania</span>
+                                            <span role="cell" data-header="">University of Applied Sciences
+                                                Mittweida</span>
+                                            <span role="cell" data-header="" class="wide"><a
+                                                    href="https://www.hs-mittweida.de/en.html">https://www.hs-mittweida.de/en.html</a></span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="convenio-univ-toggle-wrap" data-convenio-id="2">
-                        <div style="width: 14%;display: inline-block; vertical-align: top;"></div>
-                        <div class="box">
-                            <div id="container-convenios-lista" class="content-list-convenios">
-                                <table class="">
-                                    <thead>
-                                        <tr>
-                                            <th>País</th>
-                                            <th>Universidad</th>
-                                            <th>Página Web</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="view-list hidden" data-pais="argentina">
-                                            <td>Argentina</td>
-                                            <td>Universidad Abierta Interamericana</td>
-                                            <td><a href="https://www.uai.edu.ar/"
-                                                    target="_blanck">https://www.uai.edu.ar/</a></td>
-                                        </tr>
-
-                                        <tr class="view-list" data-pais="argentina">
-                                            <td>Argentina</td>
-                                            <td>Universidad de Buenos Aires</td>
-                                            <td><a href="https://www.fmed.uba.ar/"
-                                                    target="_blanck">https://www.fmed.uba.ar/</a></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <div class="close-convenio"><span></span></div>
+                        <div class="tab-pane" id="tab-2">
+                            <div class="tab-container">
+                                <div class="close-tab"></div>
+                                <div class="table-content">
+                                    <div class="content-tab-top" role="row">
+                                        <span role="column-header" class="narrow d-none d-md-block">País</span>
+                                        <span role="column-header">Universidad</span>
+                                        <span role="column-header">Pagina Web</span>
+                                    </div>
+                                    <div class="content-tab-body">
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Argentina</span>
+                                            <span role="cell" data-header="">Universidad Abierta Interamericana</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.uai.edu.ar/">https://www.uai.edu.ar/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Argentina</span>
+                                            <span role="cell" data-header="">Universidad de Buenos Aires</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.fmed.uba.ar/">https://www.fmed.uba.ar/</a></span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="convenio-univ-toggle-wrap" data-convenio-id="3">
-                        <div style="width: 28%;display: inline-block; vertical-align: top;"></div>
-                        <div class="box">
-                            <div id="container-convenios-lista" class="content-list-convenios">
-                                <table class="">
-                                    <thead>
-                                        <tr>
-                                            <th>País</th>
-                                            <th>Universidad</th>
-                                            <th>Página Web</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="view-list hidden" data-pais="belgica">
-                                            <td>Belgica</td>
-                                            <td>University College Helmo Liege</td>
-                                            <td><a href="https://www.helmo.be/Profils/International/EN.aspx"
-                                                    target="_blanck">https://www.helmo.be/Profils/International/EN.aspx</a></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <div class="close-convenio"><span></span></div>
+                        <div class="tab-pane" id="tab-3">
+                            <div class="tab-container">
+                                <div class="close-tab"></div>
+                                <div class="table-content">
+                                    <div class="content-tab-top" role="row">
+                                        <span role="column-header" class="narrow d-none d-md-block">País</span>
+                                        <span role="column-header">Universidad</span>
+                                        <span role="column-header">Pagina Web</span>
+                                    </div>
+                                    <div class="content-tab-body">
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Bélgica</span>
+                                            <span role="cell" data-header="">University College Helmo Liege</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.helmo.be/Profils/International/EN.aspx">https://www.helmo.be/Profils/International/EN.aspx</a></span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="convenio-univ-toggle-wrap" data-convenio-id="4">
-                        <div style="width: 20%;display: inline-block; vertical-align: top;"></div>
-                        <div class="box">
-                            <div id="container-convenios-lista" class="content-list-convenios">
-                                <table class="">
-                                    <thead>
-                                        <tr>
-                                            <th>País</th>
-                                            <th>Universidad</th>
-                                            <th>Página Web</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="view-list hidden" data-pais="brasil">
-                                            <td>Brasil</td>
-                                            <td>Centro Universitário do Norte	</td>
-                                            <td><a href="https://www.uninorte.com.br/"
-                                                    target="_blanck">https://www.uninorte.com.br/</a></td>
-                                        </tr>
-
-                                        <tr class="view-list" data-pais="brasil">
-                                            <td>Brasil</td>
-                                            <td>Centro Universitário FADERGS</td>
-                                            <td><a href="https://www.fadergs.edu.br/"
-                                                    target="_blanck">https://www.fadergs.edu.br/</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="brasil">
-                                            <td>Brasil</td>
-                                            <td>Centro Universitário Ritter dos Reis</td>
-                                            <td><a href="https://www.uniritter.edu.br/"
-                                                    target="_blanck">https://www.uniritter.edu.br/</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="brasil">
-                                            <td>Brasil</td>
-                                            <td>Universidade Anhembi Morumbi</td>
-                                            <td><a href="https://portal.anhembi.br/"
-                                                    target="_blanck">https://portal.anhembi.br/</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="brasil">
-                                            <td>Brasil</td>
-                                            <td>Universidade do Estado do Rio de Janeiro</td>
-                                            <td><a href="https://www.uerj.br/"
-                                                    target="_blanck">https://www.uerj.br/</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="brasil">
-                                            <td>Brasil</td>
-                                            <td>Universidade do Sagrado Coracao</td>
-                                            <td><a href="https://unisagrado.edu.br/"
-                                                    target="_blanck">https://unisagrado.edu.br/</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="brasil">
-                                            <td>Brasil</td>
-                                            <td>Universidade Federal de São João del-Rei</td>
-                                            <td><a href="https://www.ufsj.edu.br/"
-                                                    target="_blanck">https://www.ufsj.edu.br/</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="brasil">
-                                            <td>Brasil</td>
-                                            <td>Universidade Potiguar</td>
-                                            <td><a href="https://unp.br/"
-                                                    target="_blanck">https://unp.br/</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="brasil">
-                                            <td>Brasil</td>
-                                            <td>Universidade Salvador</td>
-                                            <td><a href="https://www.unifacs.br/"
-                                                    target="_blanck">https://www.unifacs.br/</a></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <div class="close-convenio"><span></span></div>
+                        <div class="tab-pane" id="tab-4">
+                            <div class="tab-container">
+                                <div class="close-tab"></div>
+                                <div class="table-content">
+                                    <div class="content-tab-top" role="row">
+                                        <span role="column-header" class="narrow d-none d-md-block">País</span>
+                                        <span role="column-header">Universidad</span>
+                                        <span role="column-header">Pagina Web</span>
+                                    </div>
+                                    <div class="content-tab-body">
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Brasil</span>
+                                            <span role="cell" data-header="">Centro Universitário do Norte</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.uninorte.com.br/">https://www.uninorte.com.br/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Brasil</span>
+                                            <span role="cell" data-header="">Centro Universitário FADERGS</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.fadergs.edu.br/">https://www.fadergs.edu.br/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Brasil</span>
+                                            <span role="cell" data-header="">Centro Universitário Ritter dos Reis</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.uniritter.edu.br/">https://www.uniritter.edu.br/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Brasil</span>
+                                            <span role="cell" data-header="">Universidade Anhembi Morumbi</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://portal.anhembi.br/">https://portal.anhembi.br/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Brasil</span>
+                                            <span role="cell" data-header="">Universidade do Estado do Rio de
+                                                Janeiro</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.uerj.br/">https://www.uerj.br/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Brasil</span>
+                                            <span role="cell" data-header="">Universidade do Sagrado Coracao</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://unisagrado.edu.br/">https://unisagrado.edu.br/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Brasil</span>
+                                            <span role="cell" data-header="">Universidade Federal de São João
+                                                del-Rei</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.ufsj.edu.br/">https://www.ufsj.edu.br/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Brasil</span>
+                                            <span role="cell" data-header="">Universidade Potiguar</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://unp.br/">https://unp.br/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Brasil</span>
+                                            <span role="cell" data-header="">Universidade Salvador</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.unifacs.br/">https://www.unifacs.br/</a></span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="convenio-univ-toggle-wrap" data-convenio-id="5">
-                        <div style="width: 25%;display: inline-block; vertical-align: top;"></div>
-                        <div class="box">
-                            <div id="container-convenios-lista" class="content-list-convenios">
-                                <table class="">
-                                    <thead>
-                                        <tr>
-                                            <th>País</th>
-                                            <th>Universidad</th>
-                                            <th>Página Web</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="view-list hidden" data-pais="chile">
-                                            <td>Chile</td>
-                                            <td>Universidad Andrés Bello</td>
-                                            <td><a href="https://www.unab.cl/"
-                                                    target="_blanck">https://www.unab.cl/</a></td>
-                                        </tr>
-
-                                        <tr class="view-list" data-pais="chile">
-                                            <td>Chile</td>
-                                            <td>Universidad Católica del Norte</td>
-                                            <td><a href="https://www.ucn.cl/"
-                                                    target="_blanck">https://www.ucn.cl/</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="chile">
-                                            <td>Chile</td>
-                                            <td>Universidad Viña del Mar</td>
-                                            <td><a href="https://www.uvm.cl/"
-                                                    target="_blanck">https://www.uvm.cl/</a></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <div class="close-convenio"><span></span></div>
+                        <div class="tab-pane" id="tab-5">
+                            <div class="tab-container">
+                                <div class="close-tab"></div>
+                                <div class="table-content">
+                                    <div class="content-tab-top" role="row">
+                                        <span role="column-header" class="narrow d-none d-md-block">País</span>
+                                        <span role="column-header">Universidad</span>
+                                        <span role="column-header">Pagina Web</span>
+                                    </div>
+                                    <div class="content-tab-body">
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Chile</span>
+                                            <span role="cell" data-header="">Universidad Andrés Bello</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.unab.cl/">https://www.unab.cl/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Chile</span>
+                                            <span role="cell" data-header="">Universidad Católica del Norte</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.ucn.cl/">https://www.ucn.cl/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Chile</span>
+                                            <span role="cell" data-header="">Universidad Viña del Mar</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.uvm.cl/">https://www.uvm.cl/</a></span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="convenio-univ-toggle-wrap" data-convenio-id="6">
-                        <div style="width: 32%;display: inline-block; vertical-align: top;"></div>
-                        <div class="box">
-                            <div id="container-convenios-lista" class="content-list-convenios">
-                                <table class="">
-                                    <thead>
-                                        <tr>
-                                            <th>País</th>
-                                            <th>Universidad</th>
-                                            <th>Página Web</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="view-list hidden" data-pais="colombia">
-                                            <td>Colombia</td>
-                                            <td>Corporación Politécnico de la Costa Atlántica</td>
-                                            <td><a href="https://pca.edu.co/wp/"
-                                                    target="_blanck">https://pca.edu.co/wp/</a></td>
-                                        </tr>
-
-                                        <tr class="view-list" data-pais="colombia">
-                                            <td>Colombia</td>
-                                            <td>Corporación Universitaria Minuto de Dios</td>
-                                            <td><a href="https://www.uniminuto.edu/"
-                                                    target="_blanck">https://www.uniminuto.edu/</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="colombia">
-                                            <td>Colombia</td>
-                                            <td>Universidad Cooperativa de Colombia</td>
-                                            <td><a href="https://www.ucc.edu.co/Paginas/inicio.aspx"
-                                                    target="_blanck">https://www.ucc.edu.co/Paginas/inicio.aspx</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="colombia">
-                                            <td>Colombia</td>
-                                            <td>Universidad de Antioquia</td>
-                                            <td><a href="https://www.udea.edu.co/"
-                                                    target="_blanck">https://www.udea.edu.co/</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="colombia">
-                                            <td>Colombia</td>
-                                            <td>Universidad de Cartagena</td>
-                                            <td><a href="https://www.unicartagena.edu.co/"
-                                                    target="_blanck">https://www.unicartagena.edu.co/</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="colombia">
-                                            <td>Colombia</td>
-                                            <td>Universidad del Sinu</td>
-                                            <td><a href="https://www.unisinu.edu.co/"
-                                                    target="_blanck">https://www.unisinu.edu.co/</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="colombia">
-                                            <td>Colombia</td>
-                                            <td>Universidad Distrital Francisco José de Caldas</td>
-                                            <td><a href="https://www.udistrital.edu.co/inicio"
-                                                    target="_blanck">https://www.udistrital.edu.co/inicio</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="colombia">
-                                            <td>Colombia</td>
-                                            <td>Universidad EAN	</td>
-                                            <td><a href="https://universidadean.edu.co/"
-                                                    target="_blanck">https://universidadean.edu.co/</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="colombia">
-                                            <td>Colombia</td>
-                                            <td>Universidad Nacional de Colombia</td>
-                                            <td><a href="https://unal.edu.co/"
-                                                    target="_blanck">https://unal.edu.co/</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="colombia">
-                                            <td>Colombia</td>
-                                            <td>Universidad Pontificia Bolivariana</td>
-                                            <td><a href="https://www.upb.edu.co/es/home"
-                                                    target="_blanck">https://www.upb.edu.co/es/home</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="colombia">
-                                            <td>Colombia</td>
-                                            <td>Universidad Santo Tomás</td>
-                                            <td><a href="https://www.usta.edu.co/"
-                                                    target="_blanck">https://www.usta.edu.co/</a></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <div class="close-convenio"><span></span></div>
+                        <div class="tab-pane" id="tab-6">
+                            <div class="tab-container">
+                                <div class="close-tab"></div>
+                                <div class="table-content">
+                                    <div class="content-tab-top" role="row">
+                                        <span role="column-header" class="narrow d-none d-md-block">País</span>
+                                        <span role="column-header">Universidad</span>
+                                        <span role="column-header">Pagina Web</span>
+                                    </div>
+                                    <div class="content-tab-body">
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Colombia</span>
+                                            <span role="cell" data-header="">Corporación Politécnico de la Costa
+                                                Atlántica</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://pca.edu.co/wp/">https://pca.edu.co/wp/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Colombia</span>
+                                            <span role="cell" data-header="">Corporación Universitaria Minuto de
+                                                Dios</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.uniminuto.edu/">https://www.uniminuto.edu/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Colombia</span>
+                                            <span role="cell" data-header="">Universidad Cooperativa de Colombia</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.ucc.edu.co/Paginas/inicio.aspx">https://www.ucc.edu.co/Paginas/inicio.aspx</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Colombia</span>
+                                            <span role="cell" data-header="">Universidad de Antioquia</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.udea.edu.co/">https://www.udea.edu.co/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Colombia</span>
+                                            <span role="cell" data-header="">Universidad de Cartagena</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.unicartagena.edu.co/">https://www.unicartagena.edu.co/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Colombia</span>
+                                            <span role="cell" data-header="">Universidad del Sinu</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.unisinu.edu.co/">https://www.unisinu.edu.co/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Colombia</span>
+                                            <span role="cell" data-header="">Universidad Distrital Francisco José de
+                                                Caldas</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.udistrital.edu.co/inicio">https://www.udistrital.edu.co/inicio</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Colombia</span>
+                                            <span role="cell" data-header="">Universidad EAN</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://universidadean.edu.co/">https://universidadean.edu.co/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Colombia</span>
+                                            <span role="cell" data-header="">Universidad Nacional de Colombia</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://unal.edu.co/">https://unal.edu.co/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Colombia</span>
+                                            <span role="cell" data-header="">Universidad Pontificia Bolivariana</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.upb.edu.co/es/home">https://www.upb.edu.co/es/home</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Colombia</span>
+                                            <span role="cell" data-header="">Universidad Santo Tomás</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.usta.edu.co/">https://www.usta.edu.co/</a></span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-
-                <div class="country p-1">
-                    <div class="dropdown-wrapper">
-                        <a href="#" class="convenio-toggle active" data-convenio-id="7">
-                            <img class="img-fluid" src="./img/flag_costa-rica.svg" alt="">
-                            <p class="text-uppercase">COSTA RICA</p>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="country p-1">
-                    <div class="dropdown-wrapper">
-                        <a href="#" class="convenio-toggle active" data-convenio-id="8">
-                            <img class="img-fluid" src="./img/flag_espana.svg" alt="">
-                            <p class="text-uppercase">ESPAÑA</p>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="country p-1">
-                    <div class="dropdown-wrapper">
-                        <a href="#" class="convenio-toggle active" data-convenio-id="9">
-                            <img class="img-fluid" src="./img/flag_mexico.svg" alt="">
-                            <p class="text-uppercase">MEXICO</p>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="country p-1">
-                    <div class="dropdown-wrapper">
-                        <a href="#" class="convenio-toggle active" data-convenio-id="10">
-                            <img class="img-fluid" src="./img/flag_panama.svg" alt="">
-                            <p class="text-uppercase">PANAMA</p>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="country p-1">
-                    <div class="dropdown-wrapper">
-                        <a href="#" class="convenio-toggle active" data-convenio-id="11">
-                            <img class="img-fluid" src="./img/flag_portugal.svg" alt="">
-                            <p class="text-uppercase">PORTUGAL</p>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="country p-1">
-                    <div class="dropdown-wrapper">
-                        <a href="#" class="convenio-toggle active" data-convenio-id="12">
-                            <img class="img-fluid" src="./img/flag_puerto-rico.svg" alt="">
-                            <p class="text-uppercase">PUERTO RICO</p>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="tem">
-                    <div class="convenio-univ-toggle-wrap" data-convenio-id="7">
-                        <div style="width: 0;display: inline-block; vertical-align: top;"></div>
-                        <div class="box">
-                            <div id="container-convenios-lista" class="content-list-convenios">
-                                <table class="">
-                                    <thead>
-                                        <tr>
-                                            <th>País</th>
-                                            <th>Universidad</th>
-                                            <th>Página Web</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="view-list hidden" data-pais="costa-rica">
-                                            <td>Costa-rica</td>
-                                            <td>Universidad Latina de Costa Rica</td>
-                                            <td><a href="https://www.ulatina.ac.cr/"
-                                                    target="_blanck">https://www.ulatina.ac.cr/</a></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <div class="close-convenio"><span></span></div>
+                        <div class="tab-pane" id="tab-7">
+                            <div class="tab-container">
+                                <div class="close-tab"></div>
+                                <div class="table-content">
+                                    <div class="content-tab-top" role="row">
+                                        <span role="column-header" class="narrow d-none d-md-block">País</span>
+                                        <span role="column-header">Universidad</span>
+                                        <span role="column-header">Pagina Web</span>
+                                    </div>
+                                    <div class="content-tab-body">
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Costa Rica</span>
+                                            <span role="cell" data-header="">Universidad Latina de Costa Rica</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.ulatina.ac.cr/">https://www.ulatina.ac.cr/</a></span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="convenio-univ-toggle-wrap" data-convenio-id="8">
-                        <div style="width: 14%;display: inline-block; vertical-align: top;"></div>
-                        <div class="box">
-                            <div id="container-convenios-lista" class="content-list-convenios">
-                                <table class="">
-                                    <thead>
-                                        <tr>
-                                            <th>País</th>
-                                            <th>Universidad</th>
-                                            <th>Página Web</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="view-list hidden" data-pais="espana">
-                                            <td>España</td>
-                                            <td>Universidad de Alicante</td>
-                                            <td><a href="https://www.ua.es/"
-                                                    target="_blanck">https://www.ua.es/</a></td>
-                                        </tr>
-
-                                        <tr class="view-list" data-pais="espana">
-                                            <td>España</td>
-                                            <td>Universidad de Laguna</td>
-                                            <td><a href="https://www.ull.es/"
-                                                    target="_blanck">https://www.ull.es/</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="espana">
-                                            <td>España</td>
-                                            <td>Universidad de Navarra</td>
-                                            <td><a href="https://www.unav.edu/"
-                                                    target="_blanck">https://www.unav.edu/</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="espana">
-                                            <td>España</td>
-                                            <td>Universidad de Oviedo</td>
-                                            <td><a href="https://www.uniovi.es/"
-                                                    target="_blanck">https://www.uniovi.es/</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="espana">
-                                            <td>España</td>
-                                            <td>Universidad de Vigo</td>
-                                            <td><a href="https://www.uvigo.gal/"
-                                                    target="_blanck">https://www.uvigo.gal/</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="espana">
-                                            <td>España</td>
-                                            <td>Universidad Europea de Canarias</td>
-                                            <td><a href="https://universidadeuropea.es/canarias"
-                                                    target="_blanck">https://universidadeuropea.es/canarias</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="espana">
-                                            <td>España</td>
-                                            <td>Universidad Europea de Madrid</td>
-                                            <td><a href="https://universidadeuropea.es/madrid"
-                                                    target="_blanck">https://universidadeuropea.es/madrid</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="espana">
-                                            <td>España</td>
-                                            <td>Universidad Europea de Valencia</td>
-                                            <td><a href="https://universidadeuropea.es/valencia"
-                                                    target="_blanck">https://universidadeuropea.es/valencia</a></td>
-                                        </tr>
-                                        <tr class="view-list" data-pais="espana">
-                                            <td>España</td>
-                                            <td>Universitad de Lleida</td>
-                                            <td><a href="https://www.udl.cat/ca/es/"
-                                                    target="_blanck">https://www.udl.cat/ca/es/</a></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <div class="close-convenio"><span></span></div>
+                        <div class="tab-pane" id="tab-8">
+                            <div class="tab-container">
+                                <div class="close-tab"></div>
+                                <div class="table-content">
+                                    <div class="content-tab-top" role="row">
+                                        <span role="column-header" class="narrow d-none d-md-block">País</span>
+                                        <span role="column-header">Universidad</span>
+                                        <span role="column-header">Pagina Web</span>
+                                    </div>
+                                    <div class="content-tab-body">
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">España</span>
+                                            <span role="cell" data-header="">Universidad de Alicante</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.ua.es/">https://www.ua.es/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">España</span>
+                                            <span role="cell" data-header="">Universidad de Laguna</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.ull.es/">https://www.ull.es/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">España</span>
+                                            <span role="cell" data-header="">Universidad de Navarra</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.unav.edu/">https://www.unav.edu/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">España</span>
+                                            <span role="cell" data-header="">Universidad de Oviedo</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.uniovi.es/">https://www.uniovi.es/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">España</span>
+                                            <span role="cell" data-header="">Universidad de Vigo</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.uvigo.gal/">https://www.uvigo.gal/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">España</span>
+                                            <span role="cell" data-header="">Universidad Europea de Canarias</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://universidadeuropea.es/canarias">https://universidadeuropea.es/canarias</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">España</span>
+                                            <span role="cell" data-header="">Universidad Europea de Madrid</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://universidadeuropea.es/madrid">https://universidadeuropea.es/madrid</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">España</span>
+                                            <span role="cell" data-header="">Universidad Europea de Valencia</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://universidadeuropea.es/valencia">https://universidadeuropea.es/valencia</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">España</span>
+                                            <span role="cell" data-header="">Universitad de Lleida</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.udl.cat/ca/es/">https://www.udl.cat/ca/es/</a></span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="convenio-univ-toggle-wrap" data-convenio-id="9">
-                        <div style="width: 28%;display: inline-block; vertical-align: top;"></div>
-                        <div class="box">
-                            <div id="container-convenios-lista" class="content-list-convenios">
-                                <table class="">
-                                    <thead>
-                                        <tr>
-                                            <th>País</th>
-                                            <th>Universidad</th>
-                                            <th>Página Web</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="view-list hidden" data-pais="mexico">
-                                            <td>México</td>
-                                            <td>Universidad Autónoma de Coahuila</td>
-                                            <td><a href="https://www.uadec.mx/"
-                                                    target="_blanck">https://www.uadec.mx/</a></td>
-                                        </tr>
-                                        <tr class="view-list hidden" data-pais="mexico">
-                                            <td>México</td>
-                                            <td>Universidad Autónoma del Estado de Morelos</td>
-                                            <td><a href="https://www.uaem.mx/"
-                                                    target="_blanck">https://www.uaem.mx/</a></td>
-                                        </tr>
-                                        <tr class="view-list hidden" data-pais="mexico">
-                                            <td>México</td>
-                                            <td>Universidad del Valle de México</td>
-                                            <td><a href="https://uvm.mx/"
-                                                    target="_blanck">https://uvm.mx/</a></td>
-                                        </tr>
-                                        <tr class="view-list hidden" data-pais="mexico">
-                                            <td>México</td>
-                                            <td>Universidad Nacional Autónoma de México	</td>
-                                            <td><a href="https://www.unam.mx/"
-                                                    target="_blanck">https://www.unam.mx/</a></td>
-                                        </tr>
-                                        <tr class="view-list hidden" data-pais="mexico">
-                                            <td>México</td>
-                                            <td>Universidad Veracruzana	</td>
-                                            <td><a href="https://uvm.mx/"
-                                                    target="_blanck">https://uvm.mx/</a></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <div class="close-convenio"><span></span></div>
+                        <div class="tab-pane" id="tab-9">
+                            <div class="tab-container">
+                                <div class="close-tab"></div>
+                                <div class="table-content">
+                                    <div class="content-tab-top" role="row">
+                                        <span role="column-header" class="narrow d-none d-md-block">País</span>
+                                        <span role="column-header">Universidad</span>
+                                        <span role="column-header">Pagina Web</span>
+                                    </div>
+                                    <div class="content-tab-body">
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">México</span>
+                                            <span role="cell" data-header="">Universidad Autónoma de Coahuila</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.uadec.mx/">https://www.uadec.mx/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">México</span>
+                                            <span role="cell" data-header="">Universidad Autónoma del Estado de
+                                                Morelos</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.uaem.mx/">https://www.uaem.mx/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">México</span>
+                                            <span role="cell" data-header="">Universidad del Valle de México</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://uvm.mx/">https://uvm.mx/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">México</span>
+                                            <span role="cell" data-header="">Universidad Nacional Autónoma de
+                                                México</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.unam.mx/">https://www.unam.mx/</a></span>
+                                        </div>
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">México</span>
+                                            <span role="cell" data-header="">Universidad Veracruzana</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://uvm.mx/">https://uvm.mx/</a></span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="convenio-univ-toggle-wrap" data-convenio-id="10">
-                        <div style="width: 20%;display: inline-block; vertical-align: top;"></div>
-                        <div class="box">
-                            <div id="container-convenios-lista" class="content-list-convenios">
-                                <table class="">
-                                    <thead>
-                                        <tr>
-                                            <th>País</th>
-                                            <th>Universidad</th>
-                                            <th>Página Web</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="view-list hidden" data-pais="panama">
-                                            <td>Panamá</td>
-                                            <td>Universidade Europeia</td>
-                                            <td><a href="https://www.europeia.pt/"
-                                                    target="_blanck">https://www.europeia.pt/</a></td>
-                                        </tr>
-
-                                    </tbody>
-                                </table>
-                                <div class="close-convenio"><span></span></div>
+                        <div class="tab-pane" id="tab-10">
+                            <div class="tab-container">
+                                <div class="close-tab"></div>
+                                <div class="table-content">
+                                    <div class="content-tab-top" role="row">
+                                        <span role="column-header" class="narrow d-none d-md-block">País</span>
+                                        <span role="column-header">Universidad</span>
+                                        <span role="column-header">Pagina Web</span>
+                                    </div>
+                                    <div class="content-tab-body">
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Panamá</span>
+                                            <span role="cell" data-header="">Universidade Europeia</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.europeia.pt/">https://www.europeia.pt/</a></span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="convenio-univ-toggle-wrap" data-convenio-id="11">
-                        <div style="width: 25%;display: inline-block; vertical-align: top;"></div>
-                        <div class="box">
-                            <div id="container-convenios-lista" class="content-list-convenios">
-                                <table class="">
-                                    <thead>
-                                        <tr>
-                                            <th>País</th>
-                                            <th>Universidad</th>
-                                            <th>Página Web</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="view-list hidden" data-pais="portugal">
-                                            <td>Portugal</td>
-                                            <td>Universidade Europeia</td>
-                                            <td><a href="https://www.europeia.pt/"
-                                                    target="_blanck">https://www.europeia.pt/</a></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <div class="close-convenio"><span></span></div>
+                        <div class="tab-pane" id="tab-11">
+                            <div class="tab-container">
+                                <div class="close-tab"></div>
+                                <div class="table-content">
+                                    <div class="content-tab-top" role="row">
+                                        <span role="column-header" class="narrow d-none d-md-block">País</span>
+                                        <span role="column-header">Universidad</span>
+                                        <span role="column-header">Pagina Web</span>
+                                    </div>
+                                    <div class="content-tab-body">
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Portugal</span>
+                                            <span role="cell" data-header="">Universidade Europeia</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.europeia.pt/">https://www.europeia.pt/</a></span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="convenio-univ-toggle-wrap" data-convenio-id="12">
-                        <div style="width: 32%;display: inline-block; vertical-align: top;"></div>
-                        <div class="box">
-                            <div id="container-convenios-lista" class="content-list-convenios">
-                                <table class="">
-                                    <thead>
-                                        <tr>
-                                            <th>País</th>
-                                            <th>Universidad</th>
-                                            <th>Página Web</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="view-list hidden" data-pais="puertorico">
-                                            <td>Puerto Rico</td>
-                                            <td>Universidad Politécnica de Puerto Rico</td>
-                                            <td><a href="https://www.pupr.edu//"
-                                                    target="_blanck">https://www.pupr.edu//</a></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <div class="close-convenio"><span></span></div>
+                        <div class="tab-pane" id="tab-12">
+                            <div class="tab-container">
+                                <div class="close-tab"></div>
+                                <div class="table-content">
+                                    <div class="content-tab-top" role="row">
+                                        <span role="column-header" class="narrow d-none d-md-block">País</span>
+                                        <span role="column-header">Universidad</span>
+                                        <span role="column-header">Pagina Web</span>
+                                    </div>
+                                    <div class="content-tab-body">
+                                        <div role="row">
+                                            <span role="cell" data-header="" class="narrow d-none d-md-block">Puerto Rico</span>
+                                            <span role="cell" data-header="">Universidad Politécnica de Puerto
+                                                Rico</span>
+                                            <span role="cell" data-header=""><a
+                                                    href="https://www.pupr.edu//">https://www.pupr.edu//</a></span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
             </div>
-
-
-            <div class="hide-for-medium custom-grid col-2">
-                <!--<div class="column">
-                    <div class="mobile-convenio-toggle">
-                        <div class="">
-                            <img class="img-fluid" src="./img/flag_alemania.svg" alt="">
-                            <p class="text-uppercase">Alemania</p>
-                        </div>
-                        <div class="convenio-info">
-                            <div class="convenio-univ-mobile">
-                                <table class="table-responsive">
-                                    <thead>
-                                        <tr>
-                                            <th>Universidad</th>
-                                            <th>Página Web</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="view-list hidden" data-pais="alemania">
-                                            <td>University of Applied Sciences Mittweida</td>
-                                            <td><a href="https://www.hs-mittweida.de/en.html"
-                                                    target="_blanck">https://www.hs-mittweida.de/en.html</a></td>
-                                        </tr>
-
-                                        <tr class="view-list" data-pais="alemania">
-                                            <td>Universidad Abierta Interamericana</td>
-                                            <td><a href="https://www.uai.edu.ar/"
-                                                    target="_blanck">https://www.uai.edu.ar/</a></td>
-                                        </tr>
-
-                                        <tr class="view-list" data-pais="alemania">
-                                            <td>Universidad Abierta Interamericana</td>
-                                            <td><a href="https://www.uai.edu.ar/"
-                                                    target="_blanck">https://www.uai.edu.ar/</a></td>
-                                        </tr>
-
-                                        <tr class="view-list" data-pais="alemania">
-                                            <td>Universidad Abierta Interamericana</td>
-                                            <td><a href="https://www.uai.edu.ar/"
-                                                    target="_blanck">https://www.uai.edu.ar/</a></td>
-                                        </tr>
-
-                                        <tr class="view-list" data-pais="alemania">
-                                            <td>Universidad Abierta Interamericana</td>
-                                            <td><a href="https://www.uai.edu.ar/"
-                                                    target="_blanck">https://www.uai.edu.ar/</a></td>
-                                        </tr>
-
-                                    </tbody>
-                                </table>
-                                <br>
-                            </div>
-                        </div>
-                    </div>
-                </div>-->
-                <!--<div class="column">
-                    <div class="mobile-convenio-toggle">
-                        <div class="">
-                            <img class="img-fluid" src="./img/flag-argentina.png" alt="">
-                            <p class="text-uppercase">ARGENTINA</p>
-                        </div>
-                        <div class="convenio-info">
-                            <div class="convenio-univ-mobile" style="display: none;">
-                                <table class="table-responsive">
-                                    <thead>
-                                        <tr>
-                                            <th>Universidad</th>
-                                            <th>Página Web</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="view-list hidden" data-pais="alemania">
-                                            <td>University of Applied Sciences Mittweida</td>
-                                            <td><a href="https://www.hs-mittweida.de/en.html"
-                                                    target="_blanck">https://www.hs-mittweida.de/en.html</a></td>
-                                        </tr>
-
-                                        <tr class="view-list" data-pais="alemania">
-                                            <td>Universidad Abierta Interamericana</td>
-                                            <td><a href="https://www.uai.edu.ar/"
-                                                    target="_blanck">https://www.uai.edu.ar/</a></td>
-                                        </tr>
-
-                                        <tr class="view-list" data-pais="alemania">
-                                            <td>Universidad Abierta Interamericana</td>
-                                            <td><a href="https://www.uai.edu.ar/"
-                                                    target="_blanck">https://www.uai.edu.ar/</a></td>
-                                        </tr>
-
-                                        <tr class="view-list" data-pais="alemania">
-                                            <td>Universidad Abierta Interamericana</td>
-                                            <td><a href="https://www.uai.edu.ar/"
-                                                    target="_blanck">https://www.uai.edu.ar/</a></td>
-                                        </tr>
-
-                                        <tr class="view-list" data-pais="alemania">
-                                            <td>Universidad Abierta Interamericana</td>
-                                            <td><a href="https://www.uai.edu.ar/"
-                                                    target="_blanck">https://www.uai.edu.ar/</a></td>
-                                        </tr>
-
-                                    </tbody>
-                                </table>
-                                <br>
-                            </div>
-                        </div>
-                    </div>
-                </div>-->
-
-            </div>
-
-
-
-            <div class="hide-for-medium">
-                <div class="row">
-                   <div class="col-12">
-                    <div class="flag-mobile">
-                        <img class="img-fluid" src="./img/flag_alemania.svg" alt="">
-                    <p class="text-uppercase">Alemania</p>
-                    </div>
-                    <div class="expandable">
-                        <div role="row-group">
-                          <div role="row">
-                            <span role="cell" data-header="universidad" class="narrow">University of Applied Sciences Mittweida</span>
-                            <span role="cell" data-header="pagina web"><a href="https://www.hs-mittweida.de/en.html">https://www.hs-mittweida.de/en.html</a></span>
-                          </div>
-                          <div role="row">
-                            <span role="cell" data-header="universidad" class="narrow">University of Applied Sciences Mittweida</span>
-                            <span role="cell" data-header="pagina web"><a href="https://www.hs-mittweida.de/en.html">https://www.hs-mittweida.de/en.html</a></span>
-   
-                          </div>
-                        </div>
-                      </div>
-                    
-                </div>
-                <div class="col-12">
-                    <img class="img-fluid" src="./img/flag_argentina.svg" alt="">
-                    <p class="text-uppercase">Argentina</p>
-                </div>  
-                </div>
-               
-
-            </div>
-
-
-
     </section>
 
     <section class="section historia py-1 py-md-4">
@@ -936,8 +680,10 @@
                         <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
                             <h3 class="mt-4 pb-0 pb-md-4">Andrea Casafranca - Campus Breña</h3>
                             <div class="line line-black d-block d-md-none"></div>
-                            <p class="">La cigüeña tocaba cada vez mejor el saxofón y el búho
-                                pedía kiwi y queso. El pingüino Wenceslao hizo kilómetros bajo exhaustiva lluvia y frío.
+                            <p class="">
+                                ¡Vive tu pasión en UPN! Sé parte del cambio que la sociedad necesita y
+                                desarrolla tus habilidades para alcanzar tus metas profesionales con nuestro
+                                innovador modelo educativo.
                             </p>
                         </div>
                     </div>
@@ -981,7 +727,7 @@
         <div class="container-lg">
             <div class="row d-flex align-items-end">
                 <div class="col-12">
-                    <h2 class="mt-4">VIAJES ACÁDEMICOS</h2>
+                    <h2 class="mt-4">VIAJES ACADÉMICOS</h2>
                     <div class="line line-black"></div>
 
                     <div class="container-slider">
@@ -989,19 +735,13 @@
                             <div class="card-slider">
                                 <figure>
                                     <div class="position-relative">
-                                        <img class="img-fluid" src="./img/expedicion-colombia.jpg" alt="">
+                                        <img class="img-fluid" src="./img/bg-viajes-2.png" alt="">
                                     </div>
                                     <figcaption>
-                                        <h4 class="pt-4 pb-3 text-uppercase">Expedición en Colombia</h4>
+                                        <h4 class="pt-4 pb-3 text-uppercase">Luis Carlos Pimentel</h4>
                                         <p class="">
-                                            "La posibilidad de salir de nuestro país nos hace ver las cosas de diferente
-                                            manera, nos abre la mente a conocer diferentes culturas lo cual es muy
-                                            importante para el proceso de desarrollo en nuestra carrera de Negocios
-                                            Internacionales, donde debemos tener contacto con el mundo. Fue mi primera
-                                            experiencia de salida al extranjero, un sueño hecho realidad por el que me
-                                            siento muy agradecida."
-
-
+                                            "Gracias a UPN he tenido una experiencia internacional que me
+                                            ha permitido un mayor dominio de otros idiomas".
                                         </p>
                                     </figcaption>
                                 </figure>
@@ -1009,20 +749,13 @@
                             <div class="card-slider">
                                 <figure>
                                     <div class="position-relative">
-                                        <img class="img-fluid" src="./img/expedicion-mexico.jpg" alt="">
+                                        <img class="img-fluid" src="./img/bg-viajes-2.png" alt="">
                                     </div>
                                     <figcaption>
-                                        <h4 class="pt-4 pb-3 text-uppercase">Expedición en México</h4>
+                                        <h4 class="pt-4 pb-3 text-uppercase">Zumico Miranda</h4>
                                         <p class="">
-                                            "Estoy agradecida con toda la comunidad UVM por haber respetado mi enfoque y
-                                            a la vez impulsarme a desarrollar mis habilidades y herramientas para
-                                            fomentar una cultura psicológica. Este viaje no solo me permitió
-                                            involucrarme con mi universidad de destino, sino que también tuve la
-                                            oportunidad de conocer a docentes y compañeros de la Facultad de Psicología
-                                            de la Universidad Autónoma de Nuevo León y a su delegación de intercambio
-                                            académico."
-
-
+                                            "Estudiar en UPN me brindó una experiencia que me ayudó a
+                                            ampliar la visión de mis metas".
                                         </p>
                                     </figcaption>
                                 </figure>
@@ -1030,17 +763,13 @@
                             <div class="card-slider">
                                 <figure>
                                     <div class="position-relative">
-                                        <img class="img-fluid" src="./img/expedicion-chile.jpg" alt="">
+                                        <img class="img-fluid" src="./img/bg-viajes-2.png" alt="">
                                     </div>
                                     <figcaption>
-                                        <h4 class="pt-4 pb-3 text-uppercase">Expedición en Chile</h4>
+                                        <h4 class="pt-4 pb-3 text-uppercase">Marcos Villanueva</h4>
                                         <p class="">
-                                            "Vivir la experiencia en otro país fue increíble, relacionarse con docentes
-                                            y profesionales de distintas partes del mundo permite desarrollar buenos
-                                            lazos de amistad y confraternidad entre todos. Además, eleva nuestro nivel
-                                            académico internacionalmente".
-
-
+                                            "UPN me permitió vivir una experiencia internacional
+                                            de gran aprendizaje mientras obtenía mi segunda titulación".
                                         </p>
                                     </figcaption>
                                 </figure>
@@ -1136,51 +865,52 @@
         <div class="container-lg">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="mt-4">PARA INSCRIBIRTE: 3 SIMPLES PASOS</h2>
+                    <h2 class="mt-4">PARA INSCRIBIRTE: 3 PASOS SIMPLES</h2>
                     <div class="line line-black"></div>
                     <div class="row">
                         <div class="col-md-4">
                             <div class="step-box step-first mb-4 d-flex justify-content-around">
-                                <div class="step d-flex flex-column justify-content-center py-4 px-3 ">
+                                <div class="step d-flex flex-column justify-content-top py-4 px-3 ">
                                     <h3>Paso </h3>
                                     <span class="number">1</span>
                                 </div>
-                                <div class="content d-flex flex-column justify-content-center py-4 px-3 ">
-                                    <!--<h4>FORMULARIO</h4>-->
+                                <div class="content d-flex flex-column justify-content-top py-4 px-3 ">
+                                    <h4>FORMULARIO</h4>
                                     <p>
-                                        Estar matriculado en 12 créditos como mínimo en el semestre de la postulación.
+                                        Registra tus datos completos en el formulario que te
+                                        presentamos.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="step-box mb-4 d-flex justify-content-around">
-                                <div class="step d-flex flex-column justify-content-center py-4 px-3 ">
+                                <div class="step d-flex flex-column justify-content-top py-4 px-3 ">
                                     <h3>Paso </h3>
                                     <span class="number">2</span>
                                 </div>
-                                <div class="content d-flex flex-column justify-content-center py-4 px-3 ">
-                                    <!--<h4>DOCUMENTOS</h4>-->
+                                <div class="content d-flex flex-column justify-content-top py-4 px-3 ">
+                                    <h4>DOCUMENTOS</h4>
                                     <p class="mb-0">
-                                        Tener un promedio mínimo de 13.00 en el semestre anterior a la postulación.
-                                        Contar con 80 créditos académicos aprobados o 60 si perteneces al Tercio
-                                        Superior.
+                                        Conoce los documentos que debes presentar
+                                        para tu inscripción según tu modalidad de ingreso.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="step-box mb-4 d-flex justify-content-around">
-                                <div class="step d-flex flex-column justify-content-center py-4 px-3 ">
+                                <div class="step d-flex flex-column justify-content-top py-4 px-3 ">
                                     <h3>Paso </h3>
                                     <span class="number">3</span>
                                 </div>
-                                <div class="content d-flex flex-column justify-content-center py-4 px-3 ">
-                                    <!--<h4>PAGOS</h4>-->
+                                <div class="content d-flex flex-column justify-content-top py-4 px-3 ">
+                                    <h4>PAGOS</h4>
                                     <p class="mb-0">
-                                        No registrar deudas, sanciones administrativas o disciplinarias con la
-                                        Universidad.
-                                        Tener en cuenta los requisitos adicionales de la Universidad a la cual postulas.
+                                        El costo de la mensualidad varía de acuerdo a la
+                                        carrera profesional de tu elección. Pregunta por
+                                        las modalidades de pago.
+
                                     </p>
                                 </div>
                             </div>
@@ -1199,11 +929,8 @@
                     <div class="line line-black"></div>
                     <div class="row">
                         <div class="col-12 col-md-7 col-lg-6">
-                            <p class="d-none d-md-block pr-md-5">
-                                La cigüeña tocaba cada vez mejor el saxofón y el búho pedía kiwi y queso. El pingüino
-                                Wenceslao
-                                hizo kilómetros bajo exhaustiva lluvia y frío.
-                            </p>
+                            <!--<p class="d-none d-md-block pr-md-5">
+                            </p>-->
                         </div>
                         <div class="col-12 col-md-5 col-lg-4 offset-lg-2">
                             <div class="cta-header cta-big mb-5 text-uppercase">
@@ -1235,23 +962,13 @@
                                     <div id="intercambios" class="collapse" role="tabpanel" aria-labelledby="head-tab1"
                                         data-parent="#accordion">
                                         <div class="card-body">
-                                            <ul>
-                                                <li>Estar matriculado en 12 créditos como mínimo en el semestre de la
-                                                    postulación.</li>
-                                                <li>Tener un promedio mínimo de 13.00 en el semestre anterior a la
-                                                    postulación.
-                                                    Contar con 80 créditos académicos aprobados o 60 si perteneces al
-                                                    Tercio
-                                                    Superior.</li>
-                                                <li>No registrar deudas, sanciones administrativas o disciplinarias con
-                                                    la
-                                                    Universidad.</li>
-                                                <li>Tener en cuenta los requisitos adicionales de la Universidad a la
-                                                    cual
-                                                    postulas.</li>
-                                                <p><small>* La documentación se gestiona un semestre antes del
-                                                        viaje</small></p>
-                                            </ul>
+                                            <p>El estudiante de UPN podrá cursar estudios en una
+                                                institución extranjera por un ciclo académico o dos, y al
+                                                regreso, convalidar los cursos aprobados y previamente autorizados
+                                                por el responsable de carrera, todo esto tomando en cuenta
+                                                las condiciones particulares del convenio existente con la
+                                                institución extranjera.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -1277,31 +994,15 @@
                                         data-parent="#accordion">
                                         <div class="card-body">
                                             <div class="campos">
-                                                <ul>
-                                                    <li>Al momento del viaje deberán tener aprobados y/o convalidados
-                                                        como mínimo el
-                                                        80% de créditos académicos del total que establece su plan de
-                                                        estudios para
-                                                        cada carrera.</li>
-                                                    <li>Estar matriculado en 12 créditos como mínimo en el semestre de
-                                                        la
-                                                        postulación o ser egresado (sujeto a evaluación y aceptación de
-                                                        la
-                                                        Universidad de Destino).</li>
-                                                    <li>Tener un promedio mínimo de 13.00 en el semestre anterior a la
-                                                        postulación.
-                                                        No tener deudas, sanciones administrativas o disciplinarias con
-                                                        la
-                                                        Universidad. Tener en cuenta los requisitos adicionales de la
-                                                        Universidad a
-                                                        la cual postulas.</li>
-                                                    <li>El programa dependerá del análisis curricular de tu carrera.
-                                                        La única universidad que acepta egresados para el programa de
-                                                        Doble
-                                                        Titulación es Anhembi Morumbi de Brasil.</li>
-                                                </ul>
-                                                <p><small>* La documentación se gestiona un semestre antes del
-                                                        viaje</small></p>
+                                                <p>El estudiante de UPN podrá obtener el grado académico de bachiller
+                                                    o título profesional en UPN y en la institución extranjera,
+                                                    estudiando
+                                                    un periódo adicional del tiempo, de acuerdo con las condiciones y
+                                                    requisitos
+                                                    de cada Universidad y de acuerdo con los términos del convenio
+                                                    establecido
+                                                    por ambas partes.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -1314,6 +1015,7 @@
             </div>
         </div>
     </section>
+
 
     <footer class="section bg-black text-white py-3 py-md-5">
         <div class="container-lg">
@@ -1356,46 +1058,43 @@
                 </div>
                 <div class="modal-body">
                     <form class="bg-form-tec px-0">
-                        <p class="text-purple poppinsbold pl-lg-4 pb-2">Déjanos tus datos y conoce por qué UPN es tu
+                        <p class="text-purple poppinsbold pb-2">Déjanos tus datos y conoce por qué UPN es tu
                             mejor opción
                         </p>
-                        <div class="d-flex justify-content-between">
+                        <div class="d-flex justify-content-start">
                             <input type="radio" name="grado">
-                            <span class="text-black line-form pl-2 size-14 mr-lg-5">PREGRADO</span>
-                            <input type="radio" name="grado" class="ml-3 ml-lg-5">
-                            <span class="text-black line-form pl-2 size-14">CARRERA PARA GENTE QUE
-                                TRABAJA</span>
+                            <span class="text-black line-form pl-2 size-14">Pregrado</span>
+                            <input type="radio" name="grado" class="ml-3">
+                            <span class="text-black line-form pl-2 size-14">Carreras Gente que
+                                Trabaja</span>
                         </div>
-                        <div class="form-group d-flex mt-4">
-                            <input type="name" class="form-control text-center camp-form" placeholder="NOMBRES">
-                            <input type="name" class="form-control text-center camp-form ml-2 ml-lg-4"
-                                placeholder="APELLIDOS">
+                        <div class="form-group d-flex justify-content-between mt-4">
+                            <input type="name" class="form-control camp-form" placeholder="Nombres">
+                            <input type="name" class="form-control camp-form ml-2" placeholder="Apellidos">
                         </div>
-                        <div class="form-group d-flex">
-                            <input type="text" class="form-control text-center camp-form" placeholder="DNI">
-                            <input type="iphone" class="form-control text-center camp-form ml-2 ml-lg-4"
-                                placeholder="CELULAR">
+                        <div class="form-group d-flex justify-content-between">
+                            <input type="text" class="form-control camp-form text-uppercase" placeholder="dni">
+                            <input type="iphone" class="form-control camp-form ml-2" placeholder="Celular">
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control camp-form" placeholder="CORREO ELECTRONICO">
+                            <input type="email" class="form-control camp-form" placeholder="Correo electrónico">
                         </div>
                         <div class="form-group">
                             <select class="form-control camp-form">
-                                <option>SELECCIONA UNA CARRERA</option>
+                                <option>Selecciona una carrera</option>
                                 <option>Ingeniería</option>
                             </select>
                         </div>
                         <div class="form-group">
                             <select class="form-control camp-form">
-                                <option>ESCOGE UN CAMPUS</option>
+                                <option>Escoge un campus</option>
                                 <option>Norte</option>
                             </select>
                         </div>
                         <div class="form-check pt-3">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label text-black size-14" for="exampleCheck1">Acepto el uso de mis
-                                datos
-                                personales de acuerdo a las
+                            <label class="form-check-label text-black size-14" for="exampleCheck1">Acepto el uso de
+                                mis datos personales de acuerdo a las
                                 <a href="" class="text-form">politicas de privacidad</a>
                             </label>
                         </div>
@@ -1410,6 +1109,7 @@
             </div>
         </div>
     </div>
+
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
