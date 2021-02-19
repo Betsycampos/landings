@@ -48,8 +48,6 @@ $(document).ready(function () {
 });
 
 
-
-
 document.querySelectorAll('.dropdown-toggle').forEach(dropDownFunc);
 
 function dropDownFunc(dropDown) {
@@ -71,8 +69,6 @@ function dropDownFunc(dropDown) {
         });
     }
 };
-
-
 
 
 // Slider Plana Docente
@@ -135,14 +131,14 @@ $('#laboratorios').slick({
             }
         },
         {
-            breakpoint: 600,
+            breakpoint: 992,
             settings: {
-                slidesToShow: 1,
+                slidesToShow: 2,
                 slidesToScroll: 1
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 768,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1
