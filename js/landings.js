@@ -45,12 +45,6 @@ $(document).ready(function () {
         e.preventDefault();
     });
 
-    $(".close-tab").click(function () {
-        $(".tab-list li").removeClass("active");
-        $(".active .tab-container").addClass("close-content");
-    });
-
-
 });
 
 

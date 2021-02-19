@@ -98,7 +98,7 @@ a:hover {
   background: url('../img/banner-tecnologia-mobile.jpg') no-repeat;
   background-position: center;
   background-size: cover;
-  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
   width: 100%;
   min-height: 566px;
 }
@@ -125,7 +125,7 @@ a:hover {
   background-image: url('../img/banner-empleabilidad-mobile.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.24);
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.24);
   height: auto;
   min-height: 566px;
 }
@@ -176,8 +176,8 @@ a:hover {
 }
 
 .section h2 {
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 22px;
   font-family: "poppinsmedium";
 }
 
@@ -236,7 +236,7 @@ a:hover {
   background-color: #8330f5;
 }
 
-.bg-gray-section{
+.bg-gray-section {
   background-color: #f8f7fa;
 }
 
@@ -301,7 +301,7 @@ a:hover {
 .justify-content-around.bg-purple,
 .justify-content-around.bg-black,
 .justify-content-around.bg-white {
-  min-height: 200px;
+  min-height: 240px;
 }
 
 .justify-content-around.bg-purple .text-center,
@@ -395,13 +395,13 @@ a:hover {
   background: white;
   border-radius: 50%;
   background-size: 54px;
-  width: 50px;
-  height: 50px;
+  width: 63px;
+  height: 63px;
   display: block;
   position: absolute;
   z-index: 5;
-  left: 20px;
-  bottom: 24px;
+  left: 18px;
+  bottom: 14px;
 }
 
 .tri::before {
@@ -409,13 +409,13 @@ a:hover {
   display: block;
   position: absolute;
   z-index: 9;
-  left: 34px;
-  bottom: 34px;
+  left: 42px;
+  bottom: 30px;
   width: 0;
   height: 0;
-  border-left: 30px solid #8330f5;
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
+  border-left: 26px solid #8330f5;
+  border-top: 16px solid transparent;
+  border-bottom: 16px solid transparent;
 }
 
 .modal-dialog.upn {
@@ -470,7 +470,9 @@ a:hover {
 
 .camp-form {
   border-radius: 0;
-  height: 39px /*calc(1.5em + 0.75rem + 10px)*/;
+  height: 39px
+    /*calc(1.5em + 0.75rem + 10px)*/
+  ;
   /*border: 1px solid #a6a6a6;*/
   font-size: 15px;
 }
@@ -484,6 +486,10 @@ a:hover {
   border-radius: 5px;
 }
 
+.bg-form-internacional {
+  background-color: #ffffffd1;
+}
+
 .bg-form-tec .form-control:focus {
   color: #495057;
   background-color: #fff;
@@ -492,24 +498,24 @@ a:hover {
   box-shadow: 0 0 black;
 }
 
-.bg-form-tec .form-group{
+.bg-form-tec .form-group {
   margin-bottom: 10px;
 }
 
 .bg-form-tec select {
   -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background: #fff;
-    background-image: url('../img/arrow-down-black.svg');
-    background-repeat: no-repeat;
-    background-position-x: 99%;
-    background-position-y: 9px;
-    margin-right: 2rem;
-    background-size: 20px;
-    padding: 9px;
-    padding-right: 2rem;
-    color: #495057;
+  -moz-appearance: none;
+  appearance: none;
+  background: #fff;
+  background-image: url('../img/arrow-down-black.svg');
+  background-repeat: no-repeat;
+  background-position-x: 99%;
+  background-position-y: 9px;
+  margin-right: 2rem;
+  background-size: 20px;
+  padding: 9px;
+  padding-right: 2rem;
+  color: #495057;
 }
 
 .line-form {
@@ -592,7 +598,7 @@ a:hover {
   border: 1px solid #fdba30;
   width: 100%;
   height: auto;
-  min-height: 196px;
+  min-height: 204px;
 }
 
 .step-box.step-first {
@@ -642,22 +648,8 @@ a:hover {
   justify-content: center;
 }
 
-.step-box .content p{
+.step-box .content p {
   font-size: 14px;
-}
-
-/***video modal yellow**/
-.video-modal-yellow::after {
-  content: "";
-  background: url('https://www.upn.edu.pe/sites/default/themes/upn/img/video_icon.svg') no-repeat center center;
-  background-size: 54px;
-  width: 86px;
-  height: 86px;
-  display: block;
-  position: absolute;
-  z-index: 5;
-  left: 8px;
-  bottom: 5px;
 }
 
 figure>img {
@@ -677,7 +669,7 @@ figure>img {
   padding: 8px 0;
 }
 
-.country img{
+.country img {
   width: 84px;
 }
 
@@ -897,8 +889,9 @@ figure>img {
   }
 
   .rector-text {
-    position: absolute; 
-    bottom: 54px;
+    font-size: 26px;
+    font-family: 'poppinsbold';
+    color: #343a40;
   }
 
   .logo-container-2 {
@@ -931,8 +924,8 @@ figure>img {
   }
 
   .section h2 {
-    font-size: 22px;
-    line-height: 24px;
+    font-size: 24px;
+    line-height: 26px;
   }
 
   .section h3 {
@@ -999,7 +992,7 @@ figure>img {
 
   .historia img {
     object-fit: cover;
-    height: 260px;
+    height: 280px;
     width: 100%;
   }
 
@@ -1013,8 +1006,8 @@ figure>img {
     font-size: 36px;
   }
 
-  .empleate-video img{
-    height: 340px;
+  .empleate-video img {
+    height: 280px;
     width: 100%;
     object-fit: cover;
   }
@@ -1115,20 +1108,20 @@ figure>img {
 
 /** texto resaltado **/
 
-.highlight-text{
+.highlight-text {
   font-family: 'poppinsblack' !important;
   font-size: 28px !important;
   color: #fdba30;
   line-height: 30px !important;
 }
 
-.highlight-description p{
+.highlight-description p {
   font-size: 14px !important;
 }
 
 /** thank you - page **/
 
-.box-thanks{
+.box-thanks {
   border-radius: 10px;
   background: rgb(255 255 255 / 77%);
   box-shadow: 1px 6px 4px 0px #1111118a;
@@ -1139,7 +1132,7 @@ figure>img {
   padding: 30px 20px;
 }
 
-.thankyou-text h5{
+.thankyou-text h5 {
   font-family: 'poppinsbold';
   text-transform: uppercase;
   font-size: 18px;
@@ -1147,40 +1140,87 @@ figure>img {
   color: #000;
 }
 
-.thankyou-text p{
+.thankyou-text p {
   font-family: 'poppinsregular';
   font-size: 14px;
 }
 
+/**animation video**/
+
+.play-yellow:before {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 9;
+  left: 42px;
+  bottom: 30px;
+  width: 0;
+  height: 0;
+  border-left: 26px solid #fdba30;
+  border-top: 16px solid transparent;
+  border-bottom: 16px solid transparent;
+}
+
+/*.play-yellow:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 18px;
+  bottom: 14px;
+  display: block;
+  width: 63px;
+  height: 63px;
+  background: white;
+  border-radius: 50%;
+  transition: all 200ms;
+  box-shadow: 0px 1px 6px 0 rgb(0 0 0 / 15%), 0px 2px 5px 0 rgb(0 0 0 / 15%);
+}*/
+
+
 @media (min-width: 768px) {
-  .highlight-text{
+  .highlight-text {
     font-size: 34px !important;
   }
 
-  .box-thanks{
+  .box-thanks {
     top: 32%;
     left: 54%;
     right: 7%;
     padding: 20px;
   }
 
-  .thankyou-text h5{
+  .thankyou-text h5 {
     font-size: 26px;
   }
 
-  .thankyou-text p{
+  .thankyou-text p {
     font-size: 17px;
   }
+
+  .video-scale {
+    height: 280px;
+    overflow: hidden;
+  }
+
+  .video-scale figure {
+    transform: scale(1);
+    transition: transform 700ms cubic-bezier(0.165, 0.84, 0.44, 1) 0ms;
+  }
+  
+  .video-scale:hover figure {
+    transform: scale(1.06);
+    transition: transform 500ms cubic-bezier(0.165, 0.84, 0.44, 1) 0ms;
+  }
+  
 }
 
 @media (min-width: 992px) {
-  .highlight-text{
+  .highlight-text {
     font-size: 36px !important;
     line-height: 40px !important;
   }
-  
-  .highlight-description p{
-    font-size: 17px !important;
+
+  .highlight-description p {
+    font-size: 16px !important;
   }
 }
-
