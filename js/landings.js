@@ -95,7 +95,8 @@ $("#slider-viajes").slick({
             breakpoint: 768,
             settings: {
                 arrows: true,
-                //variableWidth: true,
+                variableWidth: true,
+                //centerMode: true,
                 infinite: false,
                 slidesToShow: 1,
                 slidesToScroll: 1,
