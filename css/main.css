@@ -880,7 +880,7 @@ figure>img {
   .header-empleabilidad {
     background: url('../img/banner-empleabilidad-desktop--2.jpg') no-repeat;
     background-size: cover;
-    background-position: top right;
+    background-position: top left;
     height: 640px;
   }
 
