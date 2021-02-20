@@ -196,11 +196,12 @@ a:hover {
   font-family: poppinsbold;
 }
 
-.text-shadow {
-  color: #232323;
+.switch-text {
+  color: #232323 !important;
+  font-size: 17px !important;
+  line-height: 20px !important;
+  padding-top: 40px;
 }
-
-
 
 .text-black {
   color: #000000;
@@ -277,6 +278,10 @@ a:hover {
 .style-servicios {
   padding: 17px 20px;
   min-height: 225px;
+}
+
+.style-servicios h5{
+  font-size: 18px;
 }
 
 .relativo {
@@ -519,7 +524,7 @@ a:hover {
 .logo-upn {
   width: 68px;
   position: absolute;
-  left: 18px;
+  left: 15px;
 }
 
 .stripe:before {
@@ -565,7 +570,7 @@ a:hover {
   position: relative;
   height: calc(100% - 20px);
   display: flex;
-  justify-content: center;
+  justify-content: top;
   flex-wrap: wrap;
   flex-direction: column;
 }
@@ -841,9 +846,12 @@ figure>img {
     right: 0;
   }
 
-  .text-shadow {
+  .switch-text {
     text-shadow: 1px 1px 1px black;
-    color: white;
+    color: #fff !important;
+    font-size: 30px !important;
+    line-height: 40px !important;
+    padding-top: 40px;
   }
 
   .header-tecnologia {
@@ -881,17 +889,17 @@ figure>img {
   }
 
   .rector-text {
-    font-size: 26px;
+    font-size: 20px;
     font-family: 'poppinsbold';
     color: #343a40;
   }
 
   .logo-container-2 {
-    left: 15px;
+    left: 30px;
   }
 
   .logo-container-2 img {
-    width: 74px;
+    width: 68px;
   }
 
   .height-top-text {
@@ -899,7 +907,7 @@ figure>img {
   }
 
   .first-title h1 {
-    font-size: 42px;
+    font-size: 40px;
     line-height: 48px;
   }
 
@@ -1004,9 +1012,7 @@ figure>img {
   }
 
   .text-big {
-    font-size: 25px !important;
     font-family: 'poppinsbold' !important;
-    line-height: 32px !important;
   }
 
   .why-box .line {
@@ -1045,6 +1051,14 @@ figure>img {
 
 @media (min-width: 992px) {
 
+  .logo-container-2 img {
+    width: 74px;
+  }
+
+  .first-title h1 {
+    font-size: 42px;
+  }
+
   .bg-form-tec {
     width: 430px;
   }
@@ -1080,6 +1094,20 @@ figure>img {
     top: initial;
   }
 
+  .text-big {
+    font-size: 25px !important;
+    line-height: 32px !important;
+  }
+
+  .rector-text {
+    font-size: 26px;
+  }
+
+  .style-servicios h5{
+    font-size: 20px;
+  }
+
+
 }
 
 @media (min-width: 1200px) {
@@ -1095,6 +1123,13 @@ figure>img {
   .cta-header>a {
     width: 50%;
   }
+
+  .switch-text {
+    font-size: 36px !important;
+    line-height: 44px !important;
+    padding-top: 40px;
+  }
+
 }
 
 /** texto resaltado **/
