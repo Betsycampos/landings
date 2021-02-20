@@ -1188,8 +1188,14 @@ figure>img {
 }
 
 @media (min-width: 768px) {
+
   .highlight-text {
     font-size: 34px !important;
+    line-height: 36px !important;
+  }
+
+  .highlight-description p {
+    font-size: 16px !important;
   }
 
   .box-thanks {
@@ -1228,10 +1234,6 @@ figure>img {
   .highlight-text {
     font-size: 36px !important;
     line-height: 40px !important;
-  }
-
-  .highlight-description p {
-    font-size: 16px !important;
   }
 }
 
